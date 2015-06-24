@@ -1,0 +1,25 @@
+<section class="viejooeste-landing-cabin col-100">
+    <ul class="display-horizontal col-100" style="height: 100%">
+        <li class="col-75">
+            <div ui-view="viewCabin.Detail" class="group"></div>
+        </li>
+        <li class="col-25 slider-cabin">
+            <ul class="display-vertical">
+                <li ui-sref-active="active" ng-repeat="cabin in cabins">
+                    <a ui-sref=".detail({slug:cabin.slug})">
+                        <div class="cabin-detail">
+                            <ul class="display-horizontal col-100 cabin">
+                                <li class="col-25 number"><em>No</em><div>{{ $index + 1  }}</div></li>
+                                <li class="col-20 imagen">
+                                    <img ng-src="/img/landing/{{ cabin.slug }}_stamp.png" alt="{{ cabin.name }}"/>
+                                </li>
+                                <li class="col-55 name">{{ cabin.name }}</li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li style="height: 140px"></li>
+            </ul>
+        </li>
+    </ul>
+</section>

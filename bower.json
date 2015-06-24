@@ -1,0 +1,32 @@
+{
+  "name": "HotelViejoOeste",
+  "version": "0.0.0",
+  "description": "Hotel Viejo Oeste",
+  "authors": [
+    "José Ignacio Jaraba (BigMountain)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.4.1",
+    "angular-resource": "~1.4.1",
+    "angular-filter": "~0.5.4",
+    "angular-route": "~1.4.1",
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3",
+    "angular": "~1.4.1",
+    "html5shiv": "~3.7.2",
+    "jquery-gridrotator": "~0.1.0",
+    "slick.js": "~1.5.5",
+    "angular-ui-router": "~0.2.15"
+  },
+  "install": {
+    "path": "public/js/vendor"
+  }
+}

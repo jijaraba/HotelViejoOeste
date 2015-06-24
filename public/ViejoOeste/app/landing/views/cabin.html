@@ -1,0 +1,29 @@
+<article class="cabin-detail">
+    <h1 class="title">{{ cabin.name }}</h1>
+    <section class="description">{{ cabin.description }}</section>
+    <div class="slider">
+        <ul class="col-100">
+            <li class="col-25 gutter-5">
+                <img ng-src="/img/cabin/{{cabin.slug}}/large/{{ cabin.slug }}01.jpg" alt="{{ cabin.name }}"/>
+            </li>
+            <li class="col-25 gutter-5">
+                <img ng-src="/img/cabin/{{cabin.slug}}/large/{{ cabin.slug }}02.jpg" alt="{{ cabin.name }}"/>
+            </li>
+            <li class="col-25 gutter-5">
+                <img ng-src="/img/cabin/{{cabin.slug}}/large/{{ cabin.slug }}03.jpg" alt="{{ cabin.name }}"/>
+            </li>
+            <li class="col-25 gutter-5">
+                <img ng-src="/img/cabin/{{cabin.slug}}/large/{{ cabin.slug }}04.jpg" alt="{{ cabin.name }}"/>
+            </li>
+        </ul>
+    </div>
+    <div class="capacity">Capacidad {{ cabin.capacity }}</div>
+    <div class="rate">
+        <ul class="display-horizontal col-40">
+            <li class="col-50">{{ cabin.rate_ls | currency }}</li>
+            <li class="col-50">{{ cabin.rate_hs | currency }}</li>
+        </ul>
+    </div>
+    <div class="form"></div>
+    <img ng-src="/img/landing/{{ cabin.slug }}_stamp.png" alt="{{ cabin.name }}"/>
+</article>

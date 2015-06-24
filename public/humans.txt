@@ -1,0 +1,10 @@
+/* TEAM */
+
+	CEO: José Ignacio Jaraba
+	Twitter: @jijaraba
+
+* SITE */
+	Site Name: Hotel Viejo Oeste
+	Site URL: http://www.hotelviejooeste.com/
+	Language: Spanish
+	Facebook: www.facebook.com/hotelviejooeste
