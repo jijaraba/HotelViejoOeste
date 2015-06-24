@@ -20,8 +20,8 @@
     <div class="capacity">Capacidad {{ $cabin->capacity }}</div>
     <div class="rate">
         <ul class="display-horizontal col-100">
-            <li class="50% gutter-5"><span>Temporada baja</span><br>Precio: $150.000</li>
-            <li class="50% gutter-5"><span>Temporada alta</span><br>Precio: $300.000</li>
+            <li class="50% gutter-5"><span>Temporada baja</span><br>Precio: ${{ $cabin->rate_ls }}</li>
+            <li class="50% gutter-5"><span>Temporada alta</span><br>Precio: ${{ $cabin->rate_hs }}</li>
             <li class="col-100">Incluye desayuno al estilo <strong>Viejo Oeste</strong> y consumo del <strong>minibar</strong> de la cabaña</li>
         </ul>
     </div>
