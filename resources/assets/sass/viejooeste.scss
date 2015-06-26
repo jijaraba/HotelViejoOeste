@@ -170,7 +170,7 @@ header {
           text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
           color: $viejooeste-color02;
         }
-        p {
+        > p {
           position: relative;
           margin: 50px auto;
           color: $viejooeste-color02;
@@ -1158,14 +1158,14 @@ select {
   .viejooeste-container-slider {
     background-attachment: inherit;
     .container-baseline {
-      .center {
-        h2 {
+      > .center {
+        > h2 {
           font: {
             size: 0.8em;
           }
           width: 100%;
         }
-        p {
+        > p {
           text-align: center;
           width: 90%;
         }
@@ -1338,14 +1338,14 @@ select {
     .viejooeste-container-slider {
       background-attachment: inherit;
       .container-baseline {
-        .center {
-          h2 {
+        > .center {
+          > h2 {
             font: {
               size: 0.8em;
             }
             width: 100%;
           }
-          p {
+          > p {
             text-align: center;
             width: 90%;
           }
@@ -1605,14 +1605,14 @@ select {
         display: block;
       }
       .container-baseline {
-        .center {
-          h2 {
+        > .center {
+          > h2 {
             font: {
               size: 0.8em;
             }
             width: 90%;
           }
-          p {
+          > p {
             text-align: center;
             width: 90%;
           }
@@ -1870,13 +1870,13 @@ select {
     }
     .viejooeste-baseline {
       .container-baseline {
-        .center {
-          h2 {
+        > .center {
+          > h2 {
             font: {
               size: 0.6em;
             }
           }
-          p {
+          > p {
             position: relative;
             margin: 0px auto;
             color: $viejooeste-color02;
