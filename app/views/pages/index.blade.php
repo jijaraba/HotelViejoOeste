@@ -21,49 +21,6 @@
     <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6024279725873&amp;cd[value]=1.00&amp;cd[currency]=COP&amp;noscript=1" /></noscript>
 @stop
 @section("content")
-    <div id="modal1" style="z-index:999;display:block;width:600px;height:300px;position:fixed;background:rgba(255,255,255,0.9);border-radius:10px;">
-        <img style="width:600px;height: 300px" src="/img/splash.jpg" alt="Marcamos la diferencia reinventándonos para ti"/>
-        <h2 style="position: absolute;width:100%;top:70px;text-align: center;font-family: 'Museo Sans 300';font-size: 2.2em;color:#ca9c2e;animation: 1s linear 0s normal none infinite running scale_title;">Marcamos la diferencia</h2>
-        <h4 style="position: absolute;width:100%;top:120px;text-align: center;font-family: 'Museo Sans 100';font-size: 1.5em">Reinventándonos para ti</h4>
-    </div>
-    <div id="mask1" style="position:absolute;z-index:998;background-color:rgba(0,0,0,0.5);display:none;"></div>
-    <script type="text/javascript">
-        //Get the screen height and width
-        var maskHeight = $(document).height();
-        var maskWidth = $(window).width();
-
-        //Set height and width to mask to fill up the whole screen
-        $('#mask').css({'width':maskWidth,'height':maskHeight});
-
-        //transition effect
-        $('#mask').fadeIn(1000);
-        $('#mask').fadeTo("slow",0.1);
-
-        var winH = $(window).height();
-        var winW = $(window).width();
-        $("#modal").css('top', winH/2-$("#modal").height()/2);
-        $("#modal").css('left', winW/2-$("#modal").width()/2);
-        $("#modal").fadeIn(1000);
-
-
-        //if mask is clicked
-        $('#mask').click(function () {
-            $(this).hide();
-            $('#modal').hide();
-        });
-
-        //if mask is clicked
-        $('#close').click(function () {
-            $("#mask").hide();
-            $('#modal').hide();
-        });
-
-        $(window).scroll(function(){
-            $("#mask").hide();
-            $('#modal').hide();
-        });
-
-    </script>
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider06.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>
         <img id="slider_mobile" src="img/slider/mobile/slider06.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" />
