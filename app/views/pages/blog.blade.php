@@ -1,5 +1,6 @@
 @extends("layouts.default")
 @section("title", "Blog - Doradal Antioquia")
+@section("description", "Conoce nuestras cápsulas informativas referentes al sector hotelero, el turismo en Doradal Antioquia y sitios de interés.")
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider02.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>

@@ -1,6 +1,6 @@
 @extends("layouts.default")
 @section("title", "Galería de Fotos Hotel Viejo Oeste")
-
+@section("description", "Conoce nuestros diferentes espacios, servicios y la decoración de cada una de las cabañas")
 @section("rotator_css")
 <link rel="stylesheet" href="/css/gridrotator.css"/>
 @stop

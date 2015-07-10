@@ -1,5 +1,6 @@
 @extends("layouts.default")
 @section("title", "Localización Hotel Viejo Ooeste - Doradal Antioquia")
+@section("description", "Por medio de los convenios establecidos con diferentes cooperativas pueden acceder a una experiencia memorable a un costo favorable.")
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider05.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>

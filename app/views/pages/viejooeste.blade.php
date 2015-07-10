@@ -1,5 +1,6 @@
 @extends("layouts.default")
 @section("title", "Reseña Histórica Hotel Viejo Oeste - Doradal Antioquia")
+@section("description", "En el Hotel Viejo Oeste generamos momentos memorables para nuestros clientes ofreciendo el mejor servicio hotelero en Doradal Antioquia")
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider02.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>
@@ -22,7 +23,7 @@
         <div class="feature text-block">
             <div class="block">
                 <div class="vertical-align">
-                    <h2>Misión</h2>
+                    <h1>Misión</h1>
                     <p>Generar en nuestros clientes momentos memorables en cada una de sus visitas, tomando como pilar fundamental la diferencia en todo lo que hacemos.</p>
                 </div>
             </div>

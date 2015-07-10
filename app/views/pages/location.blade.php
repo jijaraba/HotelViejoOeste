@@ -6,6 +6,7 @@
 {{ HTML::script('/js/map.js')}}
 @stop
 @section("title", "Localización Hotel Viejo Ooeste - Doradal Antioquia")
+@section("description", "Estamos ubicados a 15 minutos de la Reserva Río Claro y Diagonal a la Hacienda Nápoles")
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider04.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>

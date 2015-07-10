@@ -1,5 +1,6 @@
 @extends("layouts.default")
 @section("title", "Contacto Hotel Viejo Oeste- Doradal Antioquia")
+@section("description", "Contamos con personal calificado, el cual está dispuesto a ofrecerle una excelente orientación en todos nuestros planes de hospedaje. ")
 @section("facebook_contact")
     <!-- Facebook Conversion Code for Contacto -->
     <script>(function() {
