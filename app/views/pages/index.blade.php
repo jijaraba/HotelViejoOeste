@@ -23,6 +23,7 @@
     </noscript>
 @stop
 @section("content")
+<<<<<<< HEAD
     <div id="modal"
          style="z-index:999;display:block;width:600px;height:300px;position:fixed;background:rgba(255,255,255,0.9);border-radius:10px;">
         <img style="width:600px;height: 300px" src="/img/splash.jpg"
@@ -71,6 +72,8 @@
         });
 
     </script>
+=======
+>>>>>>> a2a1bae1fd50b6e1e47ae70e98f4a7bc3103a074
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider06.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"
              onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>

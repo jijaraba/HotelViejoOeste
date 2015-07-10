@@ -36,8 +36,8 @@ img {
   src: url("fonts/OpenSans-Regular.ttf"); }
 
 @font-face {
-  font-family: "OpenSans Condensed";
-  src: url("fonts/OpenSans-CondensedLight.ttf"); }
+  font-family: "OpenSans Bold";
+  src: url("fonts/OpenSans-Bold.ttf"); }
 
 @font-face {
   font-family: "Proxima Nova";
@@ -199,7 +199,7 @@ header {
           width: 80%;
           text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
           color: white; }
-        .viejooeste-container-slider .viejooeste-baseline .container-baseline .center p {
+        .viejooeste-container-slider .viejooeste-baseline .container-baseline .center > p {
           position: relative;
           margin: 50px auto;
           color: white;
@@ -1037,10 +1037,10 @@ select {
     width: 25%; }
   .viejooeste-container-slider {
     background-attachment: inherit; }
-    .viejooeste-container-slider .container-baseline .center h2 {
+    .viejooeste-container-slider .container-baseline > .center > h2 {
       font-size: 0.8em;
       width: 100%; }
-    .viejooeste-container-slider .container-baseline .center p {
+    .viejooeste-container-slider .container-baseline > .center > p {
       text-align: center;
       width: 90%; }
   .viejooeste-mision {
@@ -1141,10 +1141,10 @@ select {
       width: 40%; }
   .viejooeste-container-slider {
     background-attachment: inherit; }
-    .viejooeste-container-slider .container-baseline .center h2 {
+    .viejooeste-container-slider .container-baseline > .center > h2 {
       font-size: 0.8em;
       width: 100%; }
-    .viejooeste-container-slider .container-baseline .center p {
+    .viejooeste-container-slider .container-baseline > .center > p {
       text-align: center;
       width: 90%; }
   .viejooeste-mision {
@@ -1297,10 +1297,10 @@ select {
       display: none; }
     .viejooeste-container-slider img#slider_mobile {
       display: block; }
-    .viejooeste-container-slider .container-baseline .center h2 {
+    .viejooeste-container-slider .container-baseline > .center > h2 {
       font-size: 0.8em;
       width: 90%; }
-    .viejooeste-container-slider .container-baseline .center p {
+    .viejooeste-container-slider .container-baseline > .center > p {
       text-align: center;
       width: 90%; }
   .viejooeste-mision {
@@ -1442,9 +1442,9 @@ select {
     display: none; }
   .viejooeste-container-slider img#slider_mobile {
     display: block; }
-  .viejooeste-container-slider .viejooeste-baseline .container-baseline .center h2 {
+  .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > h2 {
     font-size: 0.6em; }
-  .viejooeste-container-slider .viejooeste-baseline .container-baseline .center p {
+  .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > p {
     position: relative;
     margin: 0px auto;
     color: white;
@@ -1591,8 +1591,8 @@ select {
   src: url("fonts/OpenSans-Regular.ttf"); }
 
 @font-face {
-  font-family: "OpenSans Condensed";
-  src: url("fonts/OpenSans-CondensedLight.ttf"); }
+  font-family: "OpenSans Bold";
+  src: url("fonts/OpenSans-Bold.ttf"); }
 
 @font-face {
   font-family: "Proxima Nova";
@@ -1986,12 +1986,14 @@ input[type="radio"]:checked + label {
     font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     font-size: 3em; }
   .cabin-detail > .description {
-    width: 60%;
+    width: 70%;
     margin: 10px auto;
     padding: 20px 0px;
-    font-family: "OpenSans Light", Helvetica Neue, Helvetica, sans-serif;
-    font-size: 0.9em;
     border-bottom: 2px dotted #d4c8b2; }
+    .cabin-detail > .description > p {
+      padding: 10px 0px;
+      font-family: "OpenSans Light", Helvetica Neue, Helvetica, sans-serif;
+      font-size: 0.9em; }
   .cabin-detail > .slider {
     width: 50%;
     margin: 20px auto;

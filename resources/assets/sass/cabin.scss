@@ -466,14 +466,17 @@ input[type="radio"]:checked + label {
     }
   }
   > .description {
-    width: 60%;
+    width: 70%;
     margin: 10px auto;
     padding: 20px 0px;
-    font: {
-      family: $viejooeste-font-family-04;
-      size: 0.9em;
-    }
     border-bottom: 2px dotted #d4c8b2;
+    > p {
+      padding: 10px 0px;
+      font: {
+        family: $viejooeste-font-family-04;
+        size: 0.9em;
+      }
+    }
   }
   > .slider {
     width: 50%;

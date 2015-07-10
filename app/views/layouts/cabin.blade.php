@@ -56,7 +56,7 @@
                     <a href="">
                         <div class="img">
                             <div>
-                                <img src="img/viejooeste-icon-location.png" alt="Localización Hotel Viejo Oeste"/>
+                                <img src="/img/viejooeste-icon-location.png" alt="Localización Hotel Viejo Oeste"/>
                             </div>
                         </div>
                         <span>{{ link_to_route("pages.location", "LOCALIZACIÓN") }}</span>
@@ -66,7 +66,7 @@
                     <a href="">
                         <div class="img">
                             <div>
-                                <img src="img/viejooeste-icon-booking.png" alt="Reservas Hotel Viejo Oeste"/>
+                                <img src="/img/viejooeste-icon-booking.png" alt="Reservas Hotel Viejo Oeste"/>
                             </div>
                         </div>
                         <span>{{ link_to_route("pages.booking", "RESERVAS") }}</span>
@@ -76,7 +76,7 @@
                     <a href="">
                         <div class="img">
                             <div>
-                                <img src="img/viejooeste-icon-blog.png" alt="Blog Hotel Viejo Oeste"/>
+                                <img src="/img/viejooeste-icon-blog.png" alt="Blog Hotel Viejo Oeste"/>
                             </div>
                         </div>
                         <span>{{ link_to_route("pages.blog", "BLOG") }}</span>
