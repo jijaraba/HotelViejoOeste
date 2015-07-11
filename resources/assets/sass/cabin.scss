@@ -571,7 +571,10 @@ input[type="radio"]:checked + label {
 }
 
 @media screen and (max-width: 480px) {
-  
+
+  .viejooeste-landing-cabin {
+    margin: 85px auto 0px;
+  }
 
   .viejooeste-container-slider {
     .viejooeste-baseline {
@@ -591,6 +594,7 @@ input[type="radio"]:checked + label {
         }
         &:nth-child(2) {
           order: 1;
+          position: relative;
           .slider-container {
             width: 100%;
             overflow-x: scroll;
@@ -642,6 +646,9 @@ input[type="radio"]:checked + label {
 }
 @media screen and (max-width: 360px) {
 
+  .viejooeste-landing-cabin {
+    margin: 85px auto 0px;
+  }
 
   .viejooeste-container-slider {
     .viejooeste-baseline {

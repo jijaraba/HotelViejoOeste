@@ -2058,6 +2058,8 @@ input[type="radio"]:checked + label {
   width: 100%; }
 
 @media screen and (max-width: 480px) {
+  .viejooeste-landing-cabin {
+    margin: 85px auto 0px; }
   .viejooeste-container-slider .viejooeste-baseline .container-baseline {
     display: block; }
   .viejooeste-landing-cabin > ul > li {
@@ -2069,7 +2071,8 @@ input[type="radio"]:checked + label {
     .viejooeste-landing-cabin > ul > li:nth-child(2) {
       -webkit-order: 1;
       -ms-flex-order: 1;
-      order: 1; }
+      order: 1;
+      position: relative; }
       .viejooeste-landing-cabin > ul > li:nth-child(2) .slider-container {
         width: 100%;
         overflow-x: scroll; }
@@ -2108,6 +2111,8 @@ input[type="radio"]:checked + label {
     width: 90%; } }
 
 @media screen and (max-width: 360px) {
+  .viejooeste-landing-cabin {
+    margin: 85px auto 0px; }
   .viejooeste-container-slider .viejooeste-baseline .container-baseline {
     display: block; }
   .viejooeste-landing-cabin > ul > li {
