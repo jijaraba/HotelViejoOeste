@@ -2058,6 +2058,10 @@ input[type="radio"]:checked + label {
   width: 100%; }
 
 @media screen and (max-width: 360px) {
+  .viejooeste-landing-cabin {
+    margin: 85px auto 0px; }
+  .viejooeste-container-slider .viejooeste-baseline .container-baseline {
+    display: block; }
   .viejooeste-landing-cabin > ul > li {
     width: 100%; }
     .viejooeste-landing-cabin > ul > li:nth-child(1) {
@@ -2091,6 +2095,18 @@ input[type="radio"]:checked + label {
             flex: inherit;
             display: table-cell;
             vertical-align: middle;
-            text-align: center; } }
+            text-align: center; }
+  .cabin-detail > .title {
+    width: 90%;
+    font-size: 1.5em; }
+  .cabin-detail > .slider {
+    width: 80%; }
+    .cabin-detail > .slider ul li {
+      width: 265px;
+      border-radius: 5px; }
+  .cabin-detail > .capacity {
+    width: 90%; }
+  .cabin-detail > .rate {
+    width: 90%; } }
 
 /*# sourceMappingURL=app.css.map */

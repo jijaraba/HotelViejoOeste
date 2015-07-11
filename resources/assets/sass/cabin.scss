@@ -577,6 +577,19 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 360px) {
 
   .viejooeste-landing-cabin {
+    margin: 85px auto 0px;
+  }
+
+  .viejooeste-container-slider {
+    .viejooeste-baseline {
+      .container-baseline {
+        display: block;
+      }
+    }
+  }
+
+
+  .viejooeste-landing-cabin {
     > ul {
       > li {
         width: 100%;
@@ -609,7 +622,32 @@ input[type="radio"]:checked + label {
     }
   }
 
+  .cabin-detail {
+    > .title {
+      width: 90%;
+      font: {
+        size: 1.5em;
+      }
+    }
+    > .slider {
+      width: 80%;
+      ul {
+        li {
+          width: 265px;
+          border-radius: 5px;
+        }
+      }
+    }
+    > .capacity {
+      width: 90%;
+    }
+    > .rate {
+      width: 90%;
+    }
+  }
 }
+
+
 @media screen and (max-width: 320px) {
 
 }
