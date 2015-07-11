@@ -403,7 +403,7 @@ input[type="radio"]:checked + label {
               > em {
                 position: absolute;
                 top: -20px;
-                left: -5px;
+                left: 10px;
                 font: {
                   size: 0.8em;
                   family: "Museo Sans 100";
@@ -412,6 +412,10 @@ input[type="radio"]:checked + label {
               > div {
                 position: relative;
                 top: 10px;
+                font: {
+                  size: 3em;
+                }
+                color: #4D3917;
               }
             }
             > .imagen {
@@ -496,7 +500,6 @@ input[type="radio"]:checked + label {
       li {
         width: 200px;
         display: table-cell;
-        background-color: rgba($viejooeste-color01,.4);
         img {
           border-radius: 5px;
         }
@@ -650,6 +653,34 @@ input[type="radio"]:checked + label {
       width: 90%;
     }
   }
+
+  .slider-cabin {
+    .slider-container {
+      ul {
+        li {
+          .cabin-detail {
+            ul.cabin {
+              width: 310px;
+              height: 105px;
+              .number {
+                line-height: 100px;
+              }
+              .imagen {
+                line-height: 100px;
+                > img {
+                  width: 100px;
+                }
+              }
+              .name {
+                line-height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 
 }
 @media screen and (max-width: 360px) {
