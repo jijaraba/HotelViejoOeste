@@ -1958,10 +1958,13 @@ input[type="radio"]:checked + label {
           position: relative; }
           .slider-cabin .slider-container ul li .cabin-detail ul.cabin .number > em {
             position: absolute;
-            top: -10px;
+            top: -20px;
             left: -5px;
             font-size: 0.8em;
             font-family: "Museo Sans 100"; }
+          .slider-cabin .slider-container ul li .cabin-detail ul.cabin .number > div {
+            position: relative;
+            top: 10px; }
         .slider-cabin .slider-container ul li .cabin-detail ul.cabin > .imagen > img {
           width: 75px; }
         .slider-cabin .slider-container ul li .cabin-detail ul.cabin .name {
@@ -1971,7 +1974,8 @@ input[type="radio"]:checked + label {
       color: #cea300;
       transition: all 1s;
       -webkit-transform: rotate(15deg);
-      transform: rotate(15deg); }
+      transform: rotate(15deg);
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
 
 .cabin-detail {
   position: relative; }
@@ -1983,6 +1987,7 @@ input[type="radio"]:checked + label {
     width: 50%;
     border-top: 2px dotted #d4c8b2;
     border-bottom: 2px dotted #d4c8b2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     font-size: 3em; }
   .cabin-detail > .description {
@@ -2069,6 +2074,7 @@ input[type="radio"]:checked + label {
       -ms-flex-order: 2;
       order: 2; }
     .viejooeste-landing-cabin > ul > li:nth-child(2) {
+      height: auto;
       -webkit-order: 1;
       -ms-flex-order: 1;
       order: 1;
@@ -2099,7 +2105,8 @@ input[type="radio"]:checked + label {
             text-align: center; }
   .cabin-detail > .title {
     width: 90%;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    font-weight: bold; }
   .cabin-detail > .slider {
     width: 80%; }
     .cabin-detail > .slider ul li {
@@ -2127,7 +2134,8 @@ input[type="radio"]:checked + label {
       order: 1; }
       .viejooeste-landing-cabin > ul > li:nth-child(2) .slider-container {
         width: 100%;
-        overflow-x: scroll; }
+        overflow-x: scroll;
+        clear: both; }
         .viejooeste-landing-cabin > ul > li:nth-child(2) .slider-container > ul {
           display: table;
           width: 100%;

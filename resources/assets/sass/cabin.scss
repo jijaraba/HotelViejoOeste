@@ -402,12 +402,16 @@ input[type="radio"]:checked + label {
               position: relative;
               > em {
                 position: absolute;
-                top: -10px;
+                top: -20px;
                 left: -5px;
                 font: {
                   size: 0.8em;
                   family: "Museo Sans 100";
                 }
+              }
+              > div {
+                position: relative;
+                top: 10px;
               }
             }
             > .imagen {
@@ -432,6 +436,7 @@ input[type="radio"]:checked + label {
                     color: #cea300;
                     transition: all 1s;
                     transform: rotate(15deg);
+                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
                   }
                 }
               }
@@ -460,6 +465,7 @@ input[type="radio"]:checked + label {
     width: 50%;
     border-top: 2px dotted #d4c8b2;
     border-bottom: 2px dotted #d4c8b2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font: {
       family: $viejooeste-font-family-06;
       size: 3em;
@@ -593,6 +599,7 @@ input[type="radio"]:checked + label {
           order: 2;
         }
         &:nth-child(2) {
+          height: auto;
           order: 1;
           position: relative;
           .slider-container {
@@ -624,6 +631,7 @@ input[type="radio"]:checked + label {
       width: 90%;
       font: {
         size: 1.5em;
+        weight: bold;
       }
     }
     > .slider {
@@ -671,6 +679,7 @@ input[type="radio"]:checked + label {
           .slider-container {
             width: 100%;
             overflow-x: scroll;
+            clear: both;
             > ul {
               display: table;
               width: 100%;
