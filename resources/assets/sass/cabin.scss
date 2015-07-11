@@ -637,6 +637,13 @@ input[type="radio"]:checked + label {
         weight: bold;
       }
     }
+    > .description {
+      > p {
+        font: {
+          size: 1em;
+        }
+      }
+    }
     > .slider {
       width: 80%;
       ul {
