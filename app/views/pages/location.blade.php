@@ -1,20 +1,28 @@
 @extends("layouts.default")
 @section('googlemaps')
-    <script type="text/javascript"
-            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDWhjng-wZ9CwP23Um_luPxtr0Z14CjyDs"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAEf9Fty7BFUdTNaUZKWz5QHrEWFzIZyFE"></script>
 @stop
 @section('maps')
-    <script type="text/javascript">
-        function initialize() {
-            var mapOptions = {
-                center: {lat: -34.397, lng: 150.644},
-                zoom: 8
-            };
-            var map = new google.maps.Map(document.getElementById('viejooesteMap'),
-                    mapOptions);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
+    <script>
+            var map;
+            function initialize() {
+                var point = new google.maps.LatLng(5.897741,-74.730277);
+                map = new google.maps.Map(document.getElementById('viejooesteMap'), {
+                    zoom: 15,
+                    center: point
+                });
+                var marker = new google.maps.Marker({
+                    map:map,
+                    draggable:true,
+                    animation: google.maps.Animation.DROP,
+                    position: point,
+                    title: 'Hotel Viejo Oeste'
+                });
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
 @stop
 @section("title", "Localización Hotel Viejo Ooeste - Doradal Antioquia")
 @section("description", "Estamos ubicados a 15 minutos de la Reserva Río Claro y Diagonal a la Hacienda Nápoles")
@@ -54,7 +62,7 @@
             </div>
         </div>
     </section>
-    <section class="map" style="width: 100%; height: 525px;">
-        <div id="#viejooesteMap" style="width: 100%; height: 525px;"></div>
+    <section class="map" style="width: 100%; height: 300px;">
+        <div id="viejooesteMap" style="width: 500px; height: 300px;"></div>
     </section>
 @stop

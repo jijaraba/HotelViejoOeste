@@ -43,6 +43,7 @@
     @yield("facebook_cabain")
     @yield("facebook_contact")
     @yield('googlemaps')
+    @yield('maps')
 </head>
 <body>
     <header>
@@ -213,6 +214,5 @@
     <script src="/js/vendor/slick.js/slick.min.js"></script>
     <script src="/js/viejooeste.js"></script>
     @yield("rotator_js")
-    @yield('maps')
 </body>
 </html>
