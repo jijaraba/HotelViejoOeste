@@ -28,7 +28,7 @@
   (function($) {
 
     /*
-    	Map
+    Map
      */
     return $(function() {
       var $elementID, address, infowindow, map, mapOptions, marker, point, styledMap, styles, styles1;
