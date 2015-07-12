@@ -52,6 +52,11 @@ class PagesController extends \BaseController {
         return View::make('pages.convenios');
     }
 
+    public function blog()
+    {
+        return View::make('pages.blog');
+    }
+
     public function landing()
     {
         return View::make('pages.landing');

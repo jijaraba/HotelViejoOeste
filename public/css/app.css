@@ -65,7 +65,7 @@ img {
 
 body {
   font-size: 16px;
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, sans-serif;
   font-weight: 100;
   font-style: normal; }
 
@@ -73,11 +73,11 @@ img {
   width: 100%; }
 
 h1 {
-  font-family: "Museo Sans 100";
+  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, sans-serif;
   font-size: 1.3em; }
 
 h2 {
-  font-family: "Museo Sans 100";
+  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, sans-serif;
   font-size: 1.2em; }
 
 header {
@@ -203,7 +203,7 @@ header {
           position: relative;
           margin: 50px auto;
           color: white;
-          font-family: "Proxima Nova 100";
+          font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
           font-size: 24px;
           width: 90%;
           text-align: center;
@@ -220,7 +220,7 @@ header {
   width: 100%;
   height: 700px; }
   .viejooeste-container-global h2 {
-    font-family: "Proxima Nova 100";
+    font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     position: relative;
     top: 220px;
     margin: 0px auto;
@@ -230,7 +230,7 @@ header {
     position: relative;
     top: 270px;
     margin: 0px auto;
-    font-family: "Proxima Nova 100";
+    font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     font-size: 24px;
     width: 35%;
     text-align: center; }
@@ -302,9 +302,9 @@ header {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     .viejooeste-gallery-display ul li {
-      -webkit-flex-flow: 1;
-      -ms-flex-flow: 1;
-      flex-flow: 1;
+      -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+      flex-flow: wrap;
       color: #5c5c5c;
       padding: 15px;
       margin-bottom: 20px;
@@ -328,7 +328,7 @@ header {
   width: 100%;
   margin: 40px auto; }
   .viejooeste-cabin-display .cabin-show {
-    display: show; }
+    display: block; }
   .viejooeste-cabin-display .cabin-hide {
     display: none; }
   .viejooeste-cabin-display .cabin > ul {
@@ -343,9 +343,9 @@ header {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     .viejooeste-cabin-display .cabin > ul > li {
-      -webkit-flex-flow: 1;
-      -ms-flex-flow: 1;
-      flex-flow: 1;
+      -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+      flex-flow: wrap;
       color: #5c5c5c;
       padding: 15px;
       margin-bottom: 20px;
@@ -562,9 +562,9 @@ header {
     justify-content: space-around; }
     .viejooeste-mision ul li {
       padding: 5px;
-      -webkit-flex-flow: 1;
-      -ms-flex-flow: 1;
-      flex-flow: 1;
+      -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+      flex-flow: wrap;
       font-size: 1.5em;
       width: 80%;
       margin: 0px auto;
@@ -806,13 +806,13 @@ form {
 
 label {
   font-size: 1.1em;
-  font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, Arial;
+  font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
   color: #5c5c5c;
   margin: 10px 0px;
   padding: 10px 0px; }
 
 input {
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, sans-serif;
   margin: 10px 0px;
   border: 1px solid #cdcdcd;
   color: #5c5c5c;
@@ -829,7 +829,7 @@ input[type="submit"] {
   color: #ffffff; }
 
 textarea {
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, sans-serif;
   margin: 10px 0px;
   border: 1px solid #cdcdcd;
   color: #5c5c5c;
@@ -842,7 +842,7 @@ textarea {
   border-radius: 3px; }
 
 select {
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, sans-serif;
   margin: 10px 0px;
   background: linear-gradient(135deg, #f0ede7 0%, #f0ede7 22%, #f0ede7 22%, #e5dfd1 58%, #e5dfd1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #f0ede7, endColorstr= #e5dfd1, GradientType=1 );
@@ -882,7 +882,7 @@ select {
   width: 90%;
   table-layout: fixed;
   font-size: 1.5em;
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, sans-serif;
   position: relative;
   margin: 0px auto;
   border-radius: 5px; }
@@ -1118,7 +1118,7 @@ select {
       width: 50%;
       float: left;
       font-size: 18px;
-      font-family: "Proxima Nova", Helvetica Neue, Helvetica, Arial; }
+      font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif; }
       header .viejooeste-navigator .viejooeste-menu-content li {
         display: block;
         margin-right: 50px;
@@ -1448,7 +1448,7 @@ select {
     position: relative;
     margin: 0px auto;
     color: white;
-    font-family: "Proxima Nova 100";
+    font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
     width: 50%;
     text-align: center;
@@ -1851,7 +1851,6 @@ input[type="radio"]:checked + label {
   text-align: left;
   width: 100%;
   color: #928a7c;
-  font-family: "Gotham Rounded Bold", Helvetica Neue, Helvetica, sans-serif;
   font-size: 1.2em; }
 
 .cabin-search-title {
@@ -1892,7 +1891,6 @@ input[type="radio"]:checked + label {
 .viejooeste-landing-cabin {
   margin: 130px auto 0px auto;
   font-size: 16px;
-  font-family: "PT Sans Narrow", Helvetica Neue, Helvetica, sans-serif;
   height: 100%; }
 
 .viejooeste-cabin-form {
@@ -1954,23 +1952,26 @@ input[type="radio"]:checked + label {
         color: #3e3e34; }
         .slider-cabin .slider-container ul li .cabin-detail ul.cabin .number {
           line-height: 75px;
-          font-family: "Gotham Rounded Bold", Helvetica Neue, Helvetica, sans-serif;
           position: relative; }
           .slider-cabin .slider-container ul li .cabin-detail ul.cabin .number > em {
             position: absolute;
             top: -20px;
-            left: 10px;
-            font-size: 0.8em;
-            font-family: "Museo Sans 100"; }
+            left: 18px;
+            font-size: 0.8em; }
           .slider-cabin .slider-container ul li .cabin-detail ul.cabin .number > div {
             position: relative;
             top: 10px;
-            font-size: 3em;
+            font-size: 1.5em;
             color: #4D3917; }
         .slider-cabin .slider-container ul li .cabin-detail ul.cabin > .imagen > img {
           width: 75px; }
         .slider-cabin .slider-container ul li .cabin-detail ul.cabin .name {
-          line-height: 75px; }
+          line-height: 75px;
+          font-size: 0.9em;
+          font-weight: 200;
+          text-align: left;
+          padding-left: 20px;
+          text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
     .slider-cabin .slider-container ul li.active > a > .cabin-detail > ul.cabin > .number > div {
       font-size: 3em;
       color: #cea300;
@@ -1990,7 +1991,6 @@ input[type="radio"]:checked + label {
     border-top: 2px dotted #d4c8b2;
     border-bottom: 2px dotted #d4c8b2;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     font-size: 3em; }
   .cabin-detail > .description {
     width: 70%;
@@ -1999,8 +1999,7 @@ input[type="radio"]:checked + label {
     border-bottom: 2px dotted #d4c8b2; }
     .cabin-detail > .description > p {
       padding: 10px 0px;
-      font-family: "OpenSans Light", Helvetica Neue, Helvetica, sans-serif;
-      font-size: 0.9em; }
+      font-size: 1.1em; }
   .cabin-detail > .slider {
     width: 50%;
     margin: 20px auto;
@@ -2018,32 +2017,38 @@ input[type="radio"]:checked + label {
   .cabin-detail > .capacity {
     margin: 10px auto;
     width: 60%;
-    font-family: "Proxima Nova", Helvetica Neue, Helvetica, sans-serif;
     font-size: 1.5em;
     text-align: center; }
   .cabin-detail > .rate {
     margin: 10px auto;
     width: 40%;
-    font-family: "Museo Sans 100";
-    font-size: 1em;
+    font-size: 0.9em;
+    font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     text-align: center;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
-    background: url("/img/pattern.png");
     padding: 10px;
-    border-radius: 3px;
-    color: #FFF; }
+    border-radius: 3px; }
     .cabin-detail > .rate ul {
       margin: 10px auto; }
       .cabin-detail > .rate ul li {
         text-align: center;
-        border-right: 1px dotted #FFF; }
+        padding: 8px; }
+        .cabin-detail > .rate ul li span {
+          font-weight: bold; }
         .cabin-detail > .rate ul li:nth-child(2) {
           border-right: none; }
         .cabin-detail > .rate ul li:last-child {
           padding-top: 10px;
           margin-top: 10px;
-          border-top: 1px dotted #FFF;
+          border-top: 1px dotted #D4C8B2;
           border-right: none; }
+        .cabin-detail > .rate ul li.ls {
+          background: #00A9EA;
+          border-radius: 5px;
+          color: #ffffff; }
+        .cabin-detail > .rate ul li.hs {
+          background: #7ac143;
+          border-radius: 5px;
+          color: #ffffff; }
   .cabin-detail > footer {
     position: absolute;
     bottom: 10px;

@@ -3,7 +3,7 @@
 body {
   font: {
     size: 16px;
-    family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+    family: $viejooeste-font-family-07;
     weight: 100;
     style: normal;
   }
@@ -14,13 +14,13 @@ img {
 }
 h1 {
   font: {
-    family: "Museo Sans 100";
+    family: $viejooeste-font-family-07;
     size: 1.3em;
   }
 }
 h2 {
   font: {
-    family: "Museo Sans 100";
+    family: $viejooeste-font-family-07;
     size: 1.2em;
   }
 }
@@ -175,7 +175,7 @@ header {
           margin: 50px auto;
           color: $viejooeste-color02;
           font: {
-            family: "Proxima Nova 100";
+            family: $viejooeste-font-family-06;
             size: 24px;
           }
           width: 90%;
@@ -199,7 +199,7 @@ header {
   height: 700px;
   h2 {
     font: {
-      family: "Proxima Nova 100";
+      family: $viejooeste-font-family-06;
     }
     position: relative;
     top: 220px;
@@ -212,7 +212,7 @@ header {
     top: 270px;
     margin: 0px auto;
     font: {
-      family: "Proxima Nova 100";
+      family: $viejooeste-font-family-06;
       size: 24px;
     }
     width: 35%;
@@ -295,7 +295,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-around;
     li {
-      flex-flow: 1;
+      flex-flow: wrap;
       color: $viejooeste-color07;
       padding: 15px;
       margin-bottom: 20px;
@@ -322,7 +322,7 @@ header {
   width: 100%;
   margin: 40px auto;
   .cabin-show {
-    display: show;
+    display: block;
   }
   .cabin-hide {
     display: none;
@@ -334,7 +334,7 @@ header {
       flex-flow: row wrap;
       justify-content: space-around;
       > li {
-        flex-flow: 1;
+        flex-flow: wrap;
         color: $viejooeste-color07;
         padding: 15px;
         margin-bottom: 20px;
@@ -607,7 +607,7 @@ header {
       justify-content: space-around;
     li {
       padding: 5px;
-      flex-flow: 1;
+      flex-flow: wrap;
       font: {
         size: 1.5em;
       }
@@ -916,14 +916,14 @@ form {
 label {
   font: {
     size: 1.1em;
-    family: "Proxima Nova 100", Helvetica Neue, Helvetica, Arial;
+    family: $viejooeste-font-family-06;
   }
   color: #5c5c5c;
   margin: 10px 0px;
   padding: 10px 0px;
 }
 input {
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: $viejooeste-font-family-07;
   margin: 10px 0px;
   border: 1px solid #cdcdcd;
   color: #5c5c5c;
@@ -940,7 +940,7 @@ input[type="submit"] {
   color: #ffffff;
 }
 textarea {
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: $viejooeste-font-family-07;
   margin: 10px 0px;
   border: 1px solid #cdcdcd;
   color: #5c5c5c;
@@ -953,7 +953,7 @@ textarea {
   border-radius: 3px;
 }
 select {
-  font-family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+  font-family: $viejooeste-font-family-07;
   margin: 10px 0px;
   background: linear-gradient(135deg, $viejooeste-color09 0%, $viejooeste-color09 22%, $viejooeste-color09 22%, $viejooeste-color06 58%, $viejooeste-color06 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1 );
@@ -996,7 +996,7 @@ select {
   table-layout: fixed;
   font: {
     size: 1.5em;
-    family: "Museo Sans 100", Helvetica Neue, Helvetica, Arial;
+    family: $viejooeste-font-family-07;
   }
   position: relative;
   margin: 0px auto;
@@ -1304,7 +1304,7 @@ select {
           float: left;
           font: {
             size: 18px;
-            family: "Proxima Nova", Helvetica Neue, Helvetica, Arial;
+            family: $viejooeste-font-family-06;
           }
           li {
             display: block;
@@ -1881,7 +1881,7 @@ select {
             margin: 0px auto;
             color: $viejooeste-color02;
             font: {
-              family: "Proxima Nova 100";
+              family: $viejooeste-font-family-06;
               size: 16px;
             }
             width: 50%;

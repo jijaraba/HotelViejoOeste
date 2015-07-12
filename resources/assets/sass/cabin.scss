@@ -260,7 +260,6 @@ input[type="radio"]:checked + label {
   width: 100%;
   color: #928a7c;
   font: {
-    family: $viejooeste-font-family-01;
     size: 1.2em;
   };
 }
@@ -310,7 +309,6 @@ input[type="radio"]:checked + label {
   margin: 130px auto 0px auto;
   font: {
     size: 16px;
-    family: $viejooeste-font-family-02;
   }
   height: 100%;
 }
@@ -396,24 +394,22 @@ input[type="radio"]:checked + label {
             color: #3e3e34;
             .number {
               line-height: 75px;
-              font: {
-                family: $viejooeste-font-family-01;
-              }
+
               position: relative;
               > em {
                 position: absolute;
                 top: -20px;
-                left: 10px;
+                left: 18px;
                 font: {
                   size: 0.8em;
-                  family: "Museo Sans 100";
+
                 }
               }
               > div {
                 position: relative;
                 top: 10px;
                 font: {
-                  size: 3em;
+                  size: 1.5em;
                 }
                 color: #4D3917;
               }
@@ -425,6 +421,13 @@ input[type="radio"]:checked + label {
             }
             .name {
               line-height: 75px;
+              font: {
+                size: 0.9em;
+                weight: 200;
+              }
+              text-align: left;
+              padding-left: 20px;
+              text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
           }
         }
@@ -471,7 +474,6 @@ input[type="radio"]:checked + label {
     border-bottom: 2px dotted #d4c8b2;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font: {
-      family: $viejooeste-font-family-06;
       size: 3em;
     }
   }
@@ -483,8 +485,7 @@ input[type="radio"]:checked + label {
     > p {
       padding: 10px 0px;
       font: {
-        family: $viejooeste-font-family-04;
-        size: 0.9em;
+        size: 1.1em;
       }
     }
   }
@@ -510,7 +511,6 @@ input[type="radio"]:checked + label {
     margin: 10px auto;
     width: 60%;
     font: {
-      family: $viejooeste-font-family-05;
       size: 1.5em;
     }
     text-align: center;
@@ -519,28 +519,41 @@ input[type="radio"]:checked + label {
     margin: 10px auto;
     width: 40%;
     font: {
-      family: "Museo Sans 100";
-      size: 1em;
+      size: 0.9em;
+      family: $viejooeste-font-family-06;
     }
     text-align: center;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
-    background: url('/img/pattern.png');
     padding: 10px;
     border-radius: 3px;
-    color: #FFF;
     ul {
       margin: 10px auto;
       li {
         text-align: center;
-        border-right: 1px dotted #FFF;
+        padding: 8px;
+
+        span {
+          font: {
+            weight: bold;
+          }
+        }
         &:nth-child(2) {
           border-right: none;
         }
         &:last-child {
           padding-top: 10px;
           margin-top: 10px;
-          border-top: 1px dotted #FFF;
+          border-top: 1px dotted #D4C8B2;
           border-right: none;
+        }
+        &.ls {
+          background: $viejooeste-color14;
+          border-radius: 5px;
+          color: #ffffff;
+        }
+        &.hs {
+          background: $viejooeste-color04;
+          border-radius: 5px;
+          color: #ffffff;
         }
       }
     }
