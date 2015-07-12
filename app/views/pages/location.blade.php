@@ -7,6 +7,7 @@
             var map;
             function initialize() {
                 var point = new google.maps.LatLng(5.897741,-74.730277);
+                var image = '/img/map-maker.png';
                 map = new google.maps.Map(document.getElementById('viejooesteMap'), {
                     zoom: 15,
                     center: point
@@ -16,7 +17,8 @@
                     draggable:true,
                     animation: google.maps.Animation.DROP,
                     position: point,
-                    title: 'Hotel Viejo Oeste'
+                    title: 'Hotel Viejo Oeste',
+                    icon: image
                 });
                 marker.setAnimation(google.maps.Animation.BOUNCE);
             }
@@ -63,6 +65,6 @@
         </div>
     </section>
     <section class="map" style="width: 100%; height: 300px;">
-        <div id="viejooesteMap" style="width: 500px; height: 300px;"></div>
+        <div id="viejooesteMap" style="width: 100%; height: 300px;"></div>
     </section>
 @stop
