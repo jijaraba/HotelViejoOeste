@@ -23,7 +23,7 @@
     </noscript>
 @stop
 @section("content")
-     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
+    <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider06.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"
              onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>
         <img id="slider_mobile" src="img/slider/mobile/slider06.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"/>
@@ -32,6 +32,7 @@
             <div class="container-baseline">
                 <div class="center">
                     <h2>Un hotel ideal para el descanso</h2>
+
                     <p>Nos basamos en el viejo oeste para caracterizar nuestros servicios.</p>
                 </div>
             </div>

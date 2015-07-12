@@ -1701,12 +1701,12 @@ select {
               font: {
                 size: 0.8em;
               }
-              width: 90%;
+              width: 100%;
               margin: 60px auto 0px;
             }
             > p {
               text-align: center;
-              width: 90%;
+              width: 100%;
             }
           }
         }
@@ -1862,6 +1862,7 @@ select {
       }
     }
     .viejooeste-down {
+      display: none;
       span {
         font-size: 8px;
       }
@@ -1969,12 +1970,12 @@ select {
               font: {
                 size: 0.7em;
               }
-              width: 90%;
+              width: 100%;
               margin: 70px auto 0px;
             }
             > p {
               text-align: center;
-              width: 90%;
+              width: 100%;
               margin: 20px auto;
             }
           }
@@ -2118,6 +2119,7 @@ select {
     }
   }
   .viejooeste-down {
+    display: none;
     bottom: 5px;
   }
   footer {

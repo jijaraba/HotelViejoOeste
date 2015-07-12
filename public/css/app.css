@@ -1358,11 +1358,11 @@ select {
       display: block; }
     .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > h2 {
       font-size: 0.8em;
-      width: 90%;
+      width: 100%;
       margin: 60px auto 0px; }
     .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > p {
       text-align: center;
-      width: 90%; }
+      width: 100%; }
   .viejooeste-mision {
     padding-bottom: 100px;
     padding-top: 100px; }
@@ -1443,8 +1443,10 @@ select {
       .submenu > li a img {
         width: 20%;
         vertical-align: middle; }
-  .viejooeste-down span {
-    font-size: 8px; }
+  .viejooeste-down {
+    display: none; }
+    .viejooeste-down span {
+      font-size: 8px; }
   .viejooeste-icon-container {
     top: 60px; }
   .viejooeste-icon-indicator {
@@ -1506,11 +1508,11 @@ select {
       display: block; }
     .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > h2 {
       font-size: 0.7em;
-      width: 90%;
+      width: 100%;
       margin: 70px auto 0px; }
     .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > p {
       text-align: center;
-      width: 90%;
+      width: 100%;
       margin: 20px auto; } }
 
 @media screen and (max-width: 320px) {
@@ -1580,6 +1582,7 @@ select {
   .viejooeste-spaces h2 {
     font-size: 1.5em; }
   .viejooeste-down {
+    display: none;
     bottom: 5px; }
   footer .viejooeste-footer-container {
     padding: 30px 20px; }
