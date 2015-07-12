@@ -27,6 +27,11 @@
             <li class="col-100">Incluye desayuno al estilo <strong>Viejo Oeste</strong> y consumo del <strong>minibar</strong> de la cabaña</li>
         </ul>
     </div>
-    <div class="form"></div>
+    <div class="form">
+        <a href="#">
+            <span>RESERVAR CABAÑA</span>
+            <span></span>
+        </a>
+    </div>
     <img src="/img/landing/{{ $cabin->slug }}_stamp.png" alt="{{ $cabin->name }}"/>
 </section>

@@ -557,6 +557,21 @@ input[type="radio"]:checked + label {
       }
     }
   }
+  > .form {
+    > a {
+      background-color: $viejooeste-color15;
+      padding: 15px 50px;
+      border-radius: 10px;
+      transition: background 250ms;
+      font: {
+        family: $viejooeste-font-family-06;
+        size: 15px;
+      }
+      &:hover {
+        background-color: $viejooeste-color15;
+      }
+    }
+  }
   > footer {
     position: absolute;
     bottom: 10px;
@@ -580,14 +595,335 @@ input[type="radio"]:checked + label {
   width: 100%;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 980px) {
+
+  .viejooeste-landing-cabin {
+    margin: 130px auto 0px;
+  }
+
+  .viejooeste-container-slider {
+    .viejooeste-baseline {
+      .container-baseline {
+        display: block;
+      }
+    }
+  }
+
+
+  .viejooeste-landing-cabin {
+    > ul {
+      > li {
+        width: 100%;
+        &:nth-child(1) {
+          order: 2;
+        }
+        &:nth-child(2) {
+          height: auto;
+          order: 1;
+          position: relative;
+          .slider-container {
+            width: 100%;
+            overflow-x: scroll;
+            > ul {
+              display: table;
+              width: 100%;
+              flex-direction: inherit;
+              justify-content: inherit;
+              flex-flow: inherit;
+              > li {
+                width: 100%;
+                float: inherit;
+                flex: inherit;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cabin-detail {
+    > .title {
+      width: 90%;
+      font: {
+        size: 1.5em;
+        weight: bold;
+      }
+    }
+    > .description {
+      > p {
+        font: {
+          size: 1em;
+        }
+      }
+    }
+    > .slider {
+      width: 80%;
+      ul {
+        li {
+          width: 265px;
+          border-radius: 5px;
+        }
+      }
+    }
+    > .capacity {
+      width: 90%;
+    }
+    > .rate {
+      width: 90%;
+    }
+  }
+
+  .slider-cabin {
+    .slider-container {
+      ul {
+        li {
+          .cabin-detail {
+            ul.cabin {
+              width: 310px;
+              height: 105px;
+              .number {
+                line-height: 100px;
+              }
+              .imagen {
+                line-height: 100px;
+                > img {
+                  width: 100px;
+                }
+              }
+              .name {
+                line-height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
+
+  .viejooeste-landing-cabin {
+    margin: 130px auto 0px;
+  }
+
+  .viejooeste-container-slider {
+    .viejooeste-baseline {
+      .container-baseline {
+        display: block;
+      }
+    }
+  }
+
+
+  .viejooeste-landing-cabin {
+    > ul {
+      > li {
+        width: 100%;
+        &:nth-child(1) {
+          order: 2;
+        }
+        &:nth-child(2) {
+          height: auto;
+          order: 1;
+          position: relative;
+          .slider-container {
+            width: 100%;
+            overflow-x: scroll;
+            > ul {
+              display: table;
+              width: 100%;
+              flex-direction: inherit;
+              justify-content: inherit;
+              flex-flow: inherit;
+              > li {
+                width: 100%;
+                float: inherit;
+                flex: inherit;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cabin-detail {
+    > .title {
+      width: 90%;
+      font: {
+        size: 1.5em;
+        weight: bold;
+      }
+    }
+    > .description {
+      > p {
+        font: {
+          size: 1em;
+        }
+      }
+    }
+    > .slider {
+      width: 80%;
+      ul {
+        li {
+          width: 265px;
+          border-radius: 5px;
+        }
+      }
+    }
+    > .capacity {
+      width: 90%;
+    }
+    > .rate {
+      width: 90%;
+    }
+  }
+
+  .slider-cabin {
+    .slider-container {
+      ul {
+        li {
+          .cabin-detail {
+            ul.cabin {
+              width: 310px;
+              height: 105px;
+              .number {
+                line-height: 100px;
+              }
+              .imagen {
+                line-height: 100px;
+                > img {
+                  width: 100px;
+                }
+              }
+              .name {
+                line-height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 @media screen and (max-width: 768px) {
+
+  .viejooeste-landing-cabin {
+    margin: 130px auto 0px;
+  }
+
+  .viejooeste-container-slider {
+    .viejooeste-baseline {
+      .container-baseline {
+        display: block;
+      }
+    }
+  }
+
+
+  .viejooeste-landing-cabin {
+    > ul {
+      > li {
+        width: 100%;
+        &:nth-child(1) {
+          order: 2;
+        }
+        &:nth-child(2) {
+          height: auto;
+          order: 1;
+          position: relative;
+          .slider-container {
+            width: 100%;
+            overflow-x: scroll;
+            > ul {
+              display: table;
+              width: 100%;
+              flex-direction: inherit;
+              justify-content: inherit;
+              flex-flow: inherit;
+              > li {
+                width: 100%;
+                float: inherit;
+                flex: inherit;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cabin-detail {
+    > .title {
+      width: 90%;
+      font: {
+        size: 1.5em;
+        weight: bold;
+      }
+    }
+    > .description {
+      > p {
+        font: {
+          size: 1em;
+        }
+      }
+    }
+    > .slider {
+      width: 80%;
+      ul {
+        li {
+          width: 265px;
+          border-radius: 5px;
+        }
+      }
+    }
+    > .capacity {
+      width: 90%;
+    }
+    > .rate {
+      width: 90%;
+    }
+  }
+
+  .slider-cabin {
+    .slider-container {
+      ul {
+        li {
+          .cabin-detail {
+            ul.cabin {
+              width: 310px;
+              height: 105px;
+              .number {
+                line-height: 100px;
+              }
+              .imagen {
+                line-height: 100px;
+                > img {
+                  width: 100px;
+                }
+              }
+              .name {
+                line-height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 
@@ -725,11 +1061,12 @@ input[type="radio"]:checked + label {
           order: 2;
         }
         &:nth-child(2) {
+          height: auto;
           order: 1;
+          position: relative;
           .slider-container {
             width: 100%;
             overflow-x: scroll;
-            clear: both;
             > ul {
               display: table;
               width: 100%;
@@ -756,6 +1093,14 @@ input[type="radio"]:checked + label {
       width: 90%;
       font: {
         size: 1.5em;
+        weight: bold;
+      }
+    }
+    > .description {
+      > p {
+        font: {
+          size: 1em;
+        }
       }
     }
     > .slider {
@@ -775,9 +1120,141 @@ input[type="radio"]:checked + label {
     }
   }
 
+  .slider-cabin {
+    .slider-container {
+      ul {
+        li {
+          .cabin-detail {
+            ul.cabin {
+              width: 310px;
+              height: 105px;
+              .number {
+                line-height: 100px;
+              }
+              .imagen {
+                line-height: 100px;
+                > img {
+                  width: 100px;
+                }
+              }
+              .name {
+                line-height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 
 
 @media screen and (max-width: 320px) {
+  .viejooeste-landing-cabin {
+    margin: 85px auto 0px;
+  }
 
+  .viejooeste-container-slider {
+    .viejooeste-baseline {
+      .container-baseline {
+        display: block;
+      }
+    }
+  }
+
+
+  .viejooeste-landing-cabin {
+    > ul {
+      > li {
+        width: 100%;
+        &:nth-child(1) {
+          order: 2;
+        }
+        &:nth-child(2) {
+          height: auto;
+          order: 1;
+          position: relative;
+          .slider-container {
+            width: 100%;
+            overflow-x: scroll;
+            > ul {
+              display: table;
+              width: 100%;
+              flex-direction: inherit;
+              justify-content: inherit;
+              flex-flow: inherit;
+              > li {
+                width: 100%;
+                float: inherit;
+                flex: inherit;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cabin-detail {
+    > .title {
+      width: 90%;
+      font: {
+        size: 1.5em;
+        weight: bold;
+      }
+    }
+    > .description {
+      > p {
+        font: {
+          size: 1em;
+        }
+      }
+    }
+    > .slider {
+      width: 80%;
+      ul {
+        li {
+          width: 265px;
+          border-radius: 5px;
+        }
+      }
+    }
+    > .capacity {
+      width: 90%;
+    }
+    > .rate {
+      width: 90%;
+    }
+  }
+
+  .slider-cabin {
+    .slider-container {
+      ul {
+        li {
+          .cabin-detail {
+            ul.cabin {
+              width: 310px;
+              height: 105px;
+              .number {
+                line-height: 100px;
+              }
+              .imagen {
+                line-height: 100px;
+                > img {
+                  width: 100px;
+                }
+              }
+              .name {
+                line-height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
