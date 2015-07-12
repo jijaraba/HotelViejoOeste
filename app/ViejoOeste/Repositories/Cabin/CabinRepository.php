@@ -10,7 +10,7 @@ class CabinRepository implements CabinRepositoryInterface {
      */
     public function all()
     {
-        return Cabin::all();
+        return Cabin::orderBy('capacity')->get();
     }
 
     /**

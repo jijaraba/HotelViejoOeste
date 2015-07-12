@@ -23,6 +23,7 @@ class CreateCabinsTable extends Migration {
             $table->integer('rate_ls');
             $table->integer('rate_hs');
             $table->string('slug');
+            $table->integer('order');
 			$table->timestamps();
 		});
 	}

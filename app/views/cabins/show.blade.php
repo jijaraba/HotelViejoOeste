@@ -1,7 +1,7 @@
 @extends("layouts.cabin")
-@section("title", "Cabañas Temáticas - Doradal Antioquia")
-@section("description", "Cabañas temáticas al mejor estilo del viejo oeste. Estamos ubicados en Doradal Antioquia")
-@section("keywords", "hoteles en doradal, cabañas temáticas, sitios turíticos")
+@section("title", "$cabin->name - Doradal Antioquia")
+@section("description", "$cabin->seo_description")
+@section("keywords", "$cabin->seo_keywords")
 @section("facebook_cabain")
     <!-- Facebook Conversion Code for Cabañas -->
     <script>(function() {
