@@ -439,10 +439,12 @@ input[type="radio"]:checked + label {
             > a {
               > .cabin-detail {
                 > ul.cabin {
+                  border-bottom: 2px dotted $viejooeste-color01;
                   > .number {
                     > div {
                       font: {
                         size: 3em;
+                        family: $viejooeste-font-family-05;
                       }
                       color: #cea300;
                       transition: all 1s;

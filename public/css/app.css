@@ -2060,13 +2060,16 @@ input[type="radio"]:checked + label {
           text-align: center;
           padding-left: 20px;
           text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
-    .slider-cabin .slider-container nav ul li.active > a > .cabin-detail > ul.cabin > .number > div {
-      font-size: 3em;
-      color: #cea300;
-      transition: all 1s;
-      -webkit-transform: rotate(15deg);
-      transform: rotate(15deg);
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
+    .slider-cabin .slider-container nav ul li.active > a > .cabin-detail > ul.cabin {
+      border-bottom: 2px dotted #e69000; }
+      .slider-cabin .slider-container nav ul li.active > a > .cabin-detail > ul.cabin > .number > div {
+        font-size: 3em;
+        font-family: "Proxima Nova", Helvetica Neue, Helvetica, sans-serif;
+        color: #cea300;
+        transition: all 1s;
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
 
 .cabin-detail {
   position: relative; }
@@ -2482,7 +2485,7 @@ input[type="radio"]:checked + label {
   .cabin-detail > .capacity {
     width: 90%; }
   .cabin-detail > .rate {
-    width: 1000%; }
+    width: 100%; }
   .slider-cabin .slider-container nav ul li .cabin-detail ul.cabin {
     width: 310px;
     height: 105px; }
