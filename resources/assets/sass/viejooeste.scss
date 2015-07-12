@@ -46,29 +46,32 @@ header {
     float: right;
     right: 30px;
     top: 10px;
-    height: 30px;
     ul {
-      padding: 0px;
-      margin: 0px;
+      line-height: 110px;
+      width: 380px;
       li {
-        display: inline-block;
-        list-style: none;
-        width: 100px;
         font: {
           family: "Proxima Nova", Helvetica Neue, Helvetica, Arial;
           size: 15px;
         }
         color: $viejooeste-color02;
         &:first-child {
-          width: 300px;
           a {
             background-color: $viejooeste-color04;
-            padding: 15px 50px;
+            padding: 15px 40px;
             border-radius: 10px;
             transition: background 250ms;
             &:hover {
               background-color: $viejooeste-color05;
             }
+          }
+        }
+        &:nth-child(2){
+          a {
+            background-color: $viejooeste-color14;
+            padding: 15px 40px;
+            border-radius: 10px;
+            transition: background 250ms;
           }
         }
       }
@@ -159,7 +162,49 @@ header {
       max-width: none;
       position: relative;
       width: 100%;
-      .center {
+      > .center {
+        display: table-cell;
+        vertical-align: middle;
+        > h2 {
+          position: relative;
+          margin: 20px auto;
+          text-align: center;
+          width: 80%;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+          color: $viejooeste-color02;
+        }
+        > p {
+          position: relative;
+          margin: 50px auto;
+          color: $viejooeste-color02;
+          font: {
+            family: $viejooeste-font-family-06;
+            size: 24px;
+          }
+          width: 90%;
+          text-align: center;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+        }
+      }
+    }
+  }
+  .viejooeste-baseline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    .container-baseline-cabin {
+      display: block;
+      padding-left: 20px;
+      padding-right: 20px;
+      max-width: none;
+      position: relative;
+      width: 100%;
+      > .center {
         display: table-cell;
         vertical-align: middle;
         > h2 {
@@ -1144,7 +1189,14 @@ select {
 
 
 @media screen and (max-width: 1000px) {
+
   header {
+    .viejooeste-menu {
+      > ul {
+        line-height: 110px;
+        width: 360px;
+      }
+    }
     .viejooeste-navigator {
       .viejooeste-menu-content{
         width: 66%;
@@ -1284,12 +1336,20 @@ select {
     header {
       .viejooeste-menu {
         ul {
+          line-height: 95px;
+          width: 320px;
           li {
             &:first-child {
               width: 170px;
               a {
-                padding: 15px;
+                padding: 10px;
               }
+            }
+          }
+          li:nth-child(2){
+            a {
+              padding: 10px 40px;
+              border-radius: 5px;
             }
           }
         }
@@ -1532,6 +1592,28 @@ select {
   }
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    .viejooeste-menu {
+      ul {
+        line-height: 95px;
+        width: 150px;
+        li {
+          &:first-child {
+            display: none;
+          }
+        }
+        li:nth-child(2) {
+          a {
+            padding: 10px 40px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 480px) {
 
     header {
@@ -1545,9 +1627,17 @@ select {
         top: -10px;
         height: 10px;
         ul {
+          line-height: 95px;
+          width: 150px;
           li {
             &:first-child {
               display: none;
+            }
+          }
+          li:nth-child(2){
+            a {
+              padding: 10px 40px;
+              border-radius: 5px;
             }
           }
         }
@@ -1893,6 +1983,18 @@ select {
     }
   }
   header {
+    .viejooeste-menu {
+      > ul {
+        line-height: 95px;
+        width: 150px;
+        li:nth-child(2){
+          a {
+            padding: 10px 40px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
     .viejooeste-navigator {
       .viejooeste-menu-content {
         width: 45%;

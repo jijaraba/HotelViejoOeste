@@ -100,27 +100,26 @@ header {
     position: relative;
     float: right;
     right: 30px;
-    top: 10px;
-    height: 30px; }
+    top: 10px; }
     header .viejooeste-menu ul {
-      padding: 0px;
-      margin: 0px; }
+      line-height: 110px;
+      width: 380px; }
       header .viejooeste-menu ul li {
-        display: inline-block;
-        list-style: none;
-        width: 100px;
         font-family: "Proxima Nova", Helvetica Neue, Helvetica, Arial;
         font-size: 15px;
         color: white; }
-        header .viejooeste-menu ul li:first-child {
-          width: 300px; }
-          header .viejooeste-menu ul li:first-child a {
-            background-color: #7ac143;
-            padding: 15px 50px;
-            border-radius: 10px;
-            transition: background 250ms; }
-            header .viejooeste-menu ul li:first-child a:hover {
-              background-color: #62b621; }
+        header .viejooeste-menu ul li:first-child a {
+          background-color: #7ac143;
+          padding: 15px 40px;
+          border-radius: 10px;
+          transition: background 250ms; }
+          header .viejooeste-menu ul li:first-child a:hover {
+            background-color: #62b621; }
+        header .viejooeste-menu ul li:nth-child(2) a {
+          background-color: #00A9EA;
+          padding: 15px 40px;
+          border-radius: 10px;
+          transition: background 250ms; }
   header .viejooeste-navigator {
     display: none;
     margin: 40px auto;
@@ -189,17 +188,52 @@ header {
       max-width: none;
       position: relative;
       width: 100%; }
-      .viejooeste-container-slider .viejooeste-baseline .container-baseline .center {
+      .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center {
         display: table-cell;
         vertical-align: middle; }
-        .viejooeste-container-slider .viejooeste-baseline .container-baseline .center > h2 {
+        .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > h2 {
           position: relative;
           margin: 20px auto;
           text-align: center;
           width: 80%;
           text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
           color: white; }
-        .viejooeste-container-slider .viejooeste-baseline .container-baseline .center > p {
+        .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > p {
+          position: relative;
+          margin: 50px auto;
+          color: white;
+          font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
+          font-size: 24px;
+          width: 90%;
+          text-align: center;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
+  .viejooeste-container-slider .viejooeste-baseline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center; }
+    .viejooeste-container-slider .viejooeste-baseline .container-baseline-cabin {
+      display: block;
+      padding-left: 20px;
+      padding-right: 20px;
+      max-width: none;
+      position: relative;
+      width: 100%; }
+      .viejooeste-container-slider .viejooeste-baseline .container-baseline-cabin > .center {
+        display: table-cell;
+        vertical-align: middle; }
+        .viejooeste-container-slider .viejooeste-baseline .container-baseline-cabin > .center > h2 {
+          position: relative;
+          margin: 20px auto;
+          text-align: center;
+          width: 80%;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+          color: white; }
+        .viejooeste-container-slider .viejooeste-baseline .container-baseline-cabin > .center > p {
           position: relative;
           margin: 50px auto;
           color: white;
@@ -1030,6 +1064,9 @@ select {
     width: 300px; } }
 
 @media screen and (max-width: 1000px) {
+  header .viejooeste-menu > ul {
+    line-height: 110px;
+    width: 360px; }
   header .viejooeste-navigator .viejooeste-menu-content {
     width: 66%; }
   header .viejooeste-navigator .viejooeste-menu-main {
@@ -1105,10 +1142,16 @@ select {
     font-size: 1em; } }
 
 @media screen and (max-width: 768px) {
-  header .viejooeste-menu ul li:first-child {
-    width: 170px; }
-    header .viejooeste-menu ul li:first-child a {
-      padding: 15px; }
+  header .viejooeste-menu ul {
+    line-height: 95px;
+    width: 320px; }
+    header .viejooeste-menu ul li:first-child {
+      width: 170px; }
+      header .viejooeste-menu ul li:first-child a {
+        padding: 10px; }
+    header .viejooeste-menu ul li:nth-child(2) a {
+      padding: 10px 40px;
+      border-radius: 5px; }
   header .viejooeste-navigator {
     display: none;
     position: relative;
@@ -1247,6 +1290,16 @@ select {
   .viejooeste-convenios {
     width: 70%; } }
 
+@media screen and (max-width: 768px) {
+  header .viejooeste-menu ul {
+    line-height: 95px;
+    width: 150px; }
+    header .viejooeste-menu ul li:first-child {
+      display: none; }
+    header .viejooeste-menu ul li:nth-child(2) a {
+      padding: 10px 40px;
+      border-radius: 5px; } }
+
 @media screen and (max-width: 480px) {
   header .viejooeste-logo {
     margin-left: 20px;
@@ -1256,8 +1309,14 @@ select {
     right: 10px;
     top: -10px;
     height: 10px; }
-    header .viejooeste-menu ul li:first-child {
-      display: none; }
+    header .viejooeste-menu ul {
+      line-height: 95px;
+      width: 150px; }
+      header .viejooeste-menu ul li:first-child {
+        display: none; }
+      header .viejooeste-menu ul li:nth-child(2) a {
+        padding: 10px 40px;
+        border-radius: 5px; }
   header .viejooeste-navigator {
     display: none;
     margin: 20px auto;
@@ -1453,6 +1512,12 @@ select {
     width: 50%;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
+  header .viejooeste-menu > ul {
+    line-height: 95px;
+    width: 150px; }
+    header .viejooeste-menu > ul li:nth-child(2) a {
+      padding: 10px 40px;
+      border-radius: 5px; }
   header .viejooeste-navigator .viejooeste-menu-content {
     width: 45%; }
     header .viejooeste-navigator .viejooeste-menu-content li {
@@ -2080,8 +2145,6 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 980px) {
   .viejooeste-landing-cabin {
     margin: 130px auto 0px; }
-  .viejooeste-container-slider .viejooeste-baseline .container-baseline {
-    display: block; }
   .viejooeste-landing-cabin > ul > li {
     width: 100%; }
     .viejooeste-landing-cabin > ul > li:nth-child(1) {
@@ -2148,8 +2211,6 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 800px) {
   .viejooeste-landing-cabin {
     margin: 130px auto 0px; }
-  .viejooeste-container-slider .viejooeste-baseline .container-baseline {
-    display: block; }
   .viejooeste-landing-cabin > ul > li {
     width: 100%; }
     .viejooeste-landing-cabin > ul > li:nth-child(1) {
@@ -2216,8 +2277,6 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 768px) {
   .viejooeste-landing-cabin {
     margin: 130px auto 0px; }
-  .viejooeste-container-slider .viejooeste-baseline .container-baseline {
-    display: block; }
   .viejooeste-landing-cabin > ul > li {
     width: 100%; }
     .viejooeste-landing-cabin > ul > li:nth-child(1) {
@@ -2284,8 +2343,6 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 480px) {
   .viejooeste-landing-cabin {
     margin: 85px auto 0px; }
-  .viejooeste-container-slider .viejooeste-baseline .container-baseline {
-    display: block; }
   .viejooeste-landing-cabin > ul > li {
     width: 100%; }
     .viejooeste-landing-cabin > ul > li:nth-child(1) {
@@ -2352,8 +2409,6 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 360px) {
   .viejooeste-landing-cabin {
     margin: 85px auto 0px; }
-  .viejooeste-container-slider .viejooeste-baseline .container-baseline {
-    display: block; }
   .viejooeste-landing-cabin > ul > li {
     width: 100%; }
     .viejooeste-landing-cabin > ul > li:nth-child(1) {

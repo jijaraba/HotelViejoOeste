@@ -48,14 +48,14 @@
             <a href="/"><img src="/img/logo_desktop.png" alt="Hotel Viejo Oeste - Doradal Antioquia"/></a>
         </div>
         <div class="viejooeste-menu">
-            <ul>
-                <li>
-                   <a href="{{ URL::route('pages.booking') }}">
-                    <span>RESERVAR CABAÑA</span>
-                    <span class="viejooeste-icon-reserve fa fa-caret-right fa-2x"></span>
-                   </a>
+            <ul class="display-horizontal col-100">
+                <li class="col-60">
+                    <a href="{{ URL::route('pages.booking') }}">
+                        <span>RESERVAR CABAÑA</span>
+                        <span class="viejooeste-icon-reserve fa fa-caret-right fa-2x"></span>
+                    </a>
                 </li>
-                <li>
+                <li class="col-40">
                     <a href="#" id="viejooeste_menu">
                         <span id="viejooeste_menu_text">MENÚ</span>
                         <span id="viejooeste_menu_icon" class="fa fa-bars fa-lg"></span>
@@ -108,7 +108,7 @@
     </header>
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <div class="viejooeste-baseline">
-            <div class="container-baseline" style="padding-left:0px;padding-right: 0px;">
+            <div class="container-baseline-cabin" style="padding-left:0px;padding-right: 0px;">
                 <div class="center" style="height: 100%;display:block">
                     @yield('content')
                 </div>

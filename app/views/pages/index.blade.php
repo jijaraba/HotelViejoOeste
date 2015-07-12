@@ -32,7 +32,6 @@
             <div class="container-baseline">
                 <div class="center">
                     <h2>Un hotel ideal para el descanso</h2>
-
                     <p>Nos basamos en el viejo oeste para caracterizar nuestros servicios.</p>
                 </div>
             </div>
@@ -50,7 +49,7 @@
                     <div class="viejooeste-icon-container">
                         <span class="viejooeste-icon-gallery"></span>
                     </div>
-                    <h2>{{ link_to_route('pages.gallery', "Ver galería") }}</h2>
+                    <h2>{{ link_to_route('cabins.index', "Cabañas temáticas") }}</h2>
                 </div>
             </div>
         </div>
@@ -75,7 +74,7 @@
                     <div class="viejooeste-icon-container">
                         <span class="viejooeste-icon-cabin"></span>
                     </div>
-                    <h2>{{ link_to_route('cabins.index', "Cabañas temáticas") }}</h2>
+                    <h2>{{ link_to_route('pages.gallery', "Ver galería") }}</h2>
                 </div>
             </div>
         </div>
