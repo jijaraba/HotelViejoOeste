@@ -425,7 +425,7 @@ input[type="radio"]:checked + label {
                 size: 0.9em;
                 weight: 200;
               }
-              text-align: left;
+              text-align: center;
               padding-left: 20px;
               text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
             }
@@ -519,7 +519,7 @@ input[type="radio"]:checked + label {
     margin: 10px auto;
     width: 40%;
     font: {
-      size: 0.9em;
+      size: 1em;
       family: $viejooeste-font-family-06;
     }
     text-align: center;
@@ -530,7 +530,6 @@ input[type="radio"]:checked + label {
       li {
         text-align: center;
         padding: 8px;
-
         span {
           font: {
             weight: bold;

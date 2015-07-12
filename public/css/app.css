@@ -1969,7 +1969,7 @@ input[type="radio"]:checked + label {
           line-height: 75px;
           font-size: 0.9em;
           font-weight: 200;
-          text-align: left;
+          text-align: center;
           padding-left: 20px;
           text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
     .slider-cabin .slider-container ul li.active > a > .cabin-detail > ul.cabin > .number > div {
@@ -2022,7 +2022,7 @@ input[type="radio"]:checked + label {
   .cabin-detail > .rate {
     margin: 10px auto;
     width: 40%;
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: "Proxima Nova 100", Helvetica Neue, Helvetica, sans-serif;
     text-align: center;
     padding: 10px;
