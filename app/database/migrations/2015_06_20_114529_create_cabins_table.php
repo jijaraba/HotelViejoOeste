@@ -18,6 +18,7 @@ class CreateCabinsTable extends Migration {
             $table->increments('idcabin');
 			$table->string('name');
 			$table->text('description');
+			$table->text('short_description');
 			$table->integer('capacity');
             $table->integer('rate_ls');
             $table->integer('rate_hs');
