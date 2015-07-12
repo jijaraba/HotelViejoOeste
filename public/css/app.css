@@ -1888,6 +1888,9 @@ input[type="radio"]:checked + label {
 .col-50 {
   width: 50%; }
 
+.col-45 {
+  width: 40%; }
+
 .col-40 {
   width: 40%; }
 
