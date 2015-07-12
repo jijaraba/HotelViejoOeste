@@ -206,7 +206,7 @@ header {
           font-size: 24px;
           width: 90%;
           text-align: center;
-          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); }
   .viejooeste-container-slider .viejooeste-baseline {
     position: absolute;
     left: 0;
@@ -2416,7 +2416,7 @@ input[type="radio"]:checked + label {
   .cabin-detail > .capacity {
     width: 90%; }
   .cabin-detail > .rate {
-    width: 90%; }
+    width: 100%; }
   .slider-cabin .slider-container nav ul li .cabin-detail ul.cabin {
     width: 310px;
     height: 105px; }
@@ -2482,7 +2482,7 @@ input[type="radio"]:checked + label {
   .cabin-detail > .capacity {
     width: 90%; }
   .cabin-detail > .rate {
-    width: 90%; }
+    width: 1000%; }
   .slider-cabin .slider-container nav ul li .cabin-detail ul.cabin {
     width: 310px;
     height: 105px; }
