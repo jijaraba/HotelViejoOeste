@@ -1694,17 +1694,20 @@ select {
       img#slider_mobile {
         display: block;
       }
-      .container-baseline {
-        > .center {
-          > h2 {
-            font: {
-              size: 0.8em;
+      .viejooeste-baseline {
+        .container-baseline {
+          > .center {
+            > h2 {
+              font: {
+                size: 0.8em;
+              }
+              width: 90%;
+              margin: 60px auto 0px;
             }
-            width: 90%;
-          }
-          > p {
-            text-align: center;
-            width: 90%;
+            > p {
+              text-align: center;
+              width: 90%;
+            }
           }
         }
       }
@@ -1949,6 +1952,38 @@ select {
   }
 }
 
+@media screen and (max-width: 360px) {
+
+    .viejooeste-container-slider {
+      background-attachment: inherit;
+      img#slider_desktop {
+        display: none;
+      }
+      img#slider_mobile {
+        display: block;
+      }
+      .viejooeste-baseline {
+        .container-baseline {
+          > .center {
+            > h2 {
+              font: {
+                size: 0.7em;
+              }
+              width: 90%;
+              margin: 70px auto 0px;
+            }
+            > p {
+              text-align: center;
+              width: 90%;
+              margin: 20px auto;
+            }
+          }
+        }
+      }
+    }
+
+
+}
 
 @media screen and (max-width: 320px) {
   .viejooeste-container-slider {

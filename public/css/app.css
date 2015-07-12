@@ -1356,10 +1356,11 @@ select {
       display: none; }
     .viejooeste-container-slider img#slider_mobile {
       display: block; }
-    .viejooeste-container-slider .container-baseline > .center > h2 {
+    .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > h2 {
       font-size: 0.8em;
-      width: 90%; }
-    .viejooeste-container-slider .container-baseline > .center > p {
+      width: 90%;
+      margin: 60px auto 0px; }
+    .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > p {
       text-align: center;
       width: 90%; }
   .viejooeste-mision {
@@ -1495,6 +1496,22 @@ select {
       padding: 3px; }
   .viejooeste-convenios {
     width: 90%; } }
+
+@media screen and (max-width: 360px) {
+  .viejooeste-container-slider {
+    background-attachment: inherit; }
+    .viejooeste-container-slider img#slider_desktop {
+      display: none; }
+    .viejooeste-container-slider img#slider_mobile {
+      display: block; }
+    .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > h2 {
+      font-size: 0.7em;
+      width: 90%;
+      margin: 70px auto 0px; }
+    .viejooeste-container-slider .viejooeste-baseline .container-baseline > .center > p {
+      text-align: center;
+      width: 90%;
+      margin: 20px auto; } }
 
 @media screen and (max-width: 320px) {
   .viejooeste-container-slider img#slider_desktop {
