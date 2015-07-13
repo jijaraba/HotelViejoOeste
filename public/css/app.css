@@ -2108,7 +2108,9 @@ input[type="radio"]:checked + label {
   .cabin-detail > .capacity {
     margin: 10px auto;
     width: 60%;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: #4D3917;
     text-align: center; }
   .cabin-detail > .rate {
     margin: 10px auto;

@@ -18,12 +18,13 @@ class CreateCabinsTable extends Migration {
             $table->increments('idcabin');
 			$table->string('name');
 			$table->text('description');
-			$table->text('short_description');
 			$table->integer('capacity');
             $table->integer('rate_ls');
             $table->integer('rate_hs');
             $table->string('slug');
             $table->integer('order');
+            $table->text('seo_description');
+            $table->integer('seo_keywords');
 			$table->timestamps();
 		});
 	}

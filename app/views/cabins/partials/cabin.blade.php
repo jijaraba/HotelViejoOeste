@@ -17,6 +17,16 @@
                 <img src="/img/cabin/{{$cabin->slug}}/large/{{ $cabin->slug }}04.jpg" alt="{{ $cabin->name }}"/>
             </li>
             @endif
+            @if(file_exists(public_path("img/cabin/".$cabin->slug."/large/".$cabin->slug."05.jpg")))
+                <li class="col-25 gutter-5">
+                    <img src="/img/cabin/{{$cabin->slug}}/large/{{ $cabin->slug }}05.jpg" alt="{{ $cabin->name }}"/>
+                </li>
+            @endif
+            @if(file_exists(public_path("img/cabin/".$cabin->slug."/large/".$cabin->slug."06.jpg")))
+                <li class="col-25 gutter-5">
+                    <img src="/img/cabin/{{$cabin->slug}}/large/{{ $cabin->slug }}06.jpg" alt="{{ $cabin->name }}"/>
+                </li>
+            @endif
         </ul>
     </div>
     <div class="capacity">Capacidad {{ $cabin->capacity }}</div>
