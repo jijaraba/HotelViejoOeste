@@ -116,56 +116,86 @@
             <section id="testimonies" class="testimonies">
                 <blockquote class="client">
                     <div class="body">
-                        <p>Fue una experiencia muy bonita. El hotel es increible, una buena recomendación para venir acá</p>
-                        <h4>Diana Patricia Quiceno</h4>
+                        <p>Muy buena temática. Muy familiar y acogedor. Buena forma de hacerlo sentir en familia.</p>
+                        <h4>Julio Medina</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>Gracias por todo el servicio prestado, pero ante todo por el carisma y la calidad en la atención. Me voy satisfacha. Que Dios siempre bendiga este lugar.</p>
-                        <h4>Helena Muñoz</h4>
+                        <p>Excelente. Auténtico. Una opción de turismo con amor (Servicio personalizado), comida deliciosa.</p>
+                        <h4>Sebastián Peláez</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>El Viejo Oeste es un hotel diferente. hay que visitarlo para darse cuenta que es una experiencia saludable y efectiva contra el estrés.</p>
-                        <h4>Edwin Padilla</h4>
+                        <p>Excelente hotel, para disfrutar con amigos y familia, algo distinto para el descanso, lindas habitaciones con el toque del oeste, recomendado.</p>
+                        <h4>May Fredy Piedrahita</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>De los temas más originales que he visto en hotelería es el Viejo Oeste, la presentación de las comidas espectacular, las habitaciones hermosas y la atención 1A. Felicitaciones</p>
-                        <h4>Farley Roldán</h4>
+                        <p>Excelente atención por parte del personal del hotel, la comida deliciosa y las habitaciones muy confortables.</p>
+                        <h4>Diana Marcela Isaza</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>Llegué a Doradal por cuestiones laborales, sin embargo decidí quedarme en el hotel Viejo Oeste sabiendo que no podía disfrutar de muchos de sus atracciones, pero oh sorpresa, el servicio del hotel es excelente, la atención es iniguable y la comida deliciosa incluso para un vegetariano como yo</p>
-                        <h4>Luis Alfonso Salazar</h4>
+                        <p>Excelente atención, muy acogedor. Es la segunda vez que venimos y esperamos volver prontamente.</p>
+                        <h4>Àngela María Gutiérrez</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>Muy bien! Gracias. Felicitaciones. Volveremos</p>
-                        <h4>Lina María Arias</h4>
+                        <p>Excelente hotel, un servicio inigualable. La comida es espectacular. Volveremos. Mil gracias</p>
+                        <h4>Sandra Milena Pulgarín</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>Excelente servicio. Gran creatividad. Diferente. Gracias por atendernos es un gusto visitarlos</p>
-                        <h4>Carolina Mejía</h4>
+                        <p>Muy agradable, tranquilo y confortable, la atención es excelente. Muchas gracias</p>
+                        <h4>Juliet Marcela Ruíz</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>Considero que el servicio fué excelente. La alimentación fabulosa, muy especiales en la atención. ¡Felicitaciones!</p>
-                        <h4>María Eugenia Correa</h4>
+                        <p>Muy buen lugar para el descanso. Un hotel que se sale del formato tradicional para la atención a los clientes. Excelente atención de sus propietarios y empleados haciéndonos sentir como en familia.</p>
+                        <h4>Ruby Vélez Rincón</h4>
                     </div>
                 </blockquote>
                 <blockquote class="client">
                     <div class="body">
-                        <p>Todo excelente: Alojamiento, alimentación y atención</p>
-                        <h4>Iván Darío Castaño Gómez</h4>
+                        <p>Excelente, estadía muy agradable. Ambiente muy familiar.</p>
+                        <h4>María Eugencia Salazar</h4>
+                    </div>
+                </blockquote>
+                <blockquote class="client">
+                    <div class="body">
+                        <p>Excelente atención, ambiente familiar, comida fabulosa.</p>
+                        <h4>Martha Cecilia Rincón</h4>
+                    </div>
+                </blockquote>
+                <blockquote class="client">
+                    <div class="body">
+                        <p>Muchas gracias por todas las atenciones, el servicio, la calidez y amabilidad de todos, nos hicieron sentir como en casa. Las habitaciones tienen su encanto. Jaime Gabriel les ha transmitido su magia y amor. Un abrazo</p>
+                        <h4>Luis Alejandro Jaramillo</h4>
+                    </div>
+                </blockquote>
+                <blockquote class="client">
+                    <div class="body">
+                        <p>Excelente atención, lo recomiendo para un descanso en familia.</p>
+                        <h4>Maura Moreno</h4>
+                    </div>
+                </blockquote>
+                <blockquote class="client">
+                    <div class="body">
+                        <p>Muy buen servicio, la atención es excelente. Muchas gracias</p>
+                        <h4>María Paula Prada</h4>
+                    </div>
+                </blockquote>
+                <blockquote class="client">
+                    <div class="body">
+                        <p>Muy buen servicio, la atención es excelente. Muchas gracias</p>
+                        <h4>María Paula Prada</h4>
                     </div>
                 </blockquote>
             </section>
