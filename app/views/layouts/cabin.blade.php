@@ -40,6 +40,7 @@
         </script>
     @yield("facebook_cabain")
     @endif
+    <script src="//cdn.optimizely.com/js/3191530401.js"></script>
 	<link rel="author" href="http://www.hotelviejooeste.com/humans.txt" />
 </head>
 <body style="background-color: #f2e6cc">

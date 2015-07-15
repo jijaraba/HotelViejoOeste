@@ -38,6 +38,7 @@
         _kms('//i.kissmetrics.com/i.js');
         _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
     </script>
+    <script src="//cdn.optimizely.com/js/3191530401.js"></script>
 	<link rel="author" href="http://www.hotelviejooeste.com/humans.txt" />
     @yield("facebook_visitantes")
     @yield("facebook_cabain")
