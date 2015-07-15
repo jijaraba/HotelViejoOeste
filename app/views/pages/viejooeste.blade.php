@@ -100,8 +100,8 @@
                     <ul>
                         <li><strong>El Círculo</strong></li>
                         <li><span>Simboliza el mundo creamos para nuestros clientes, inspirado en el Viejo Oeste</span></li>
-                        <li><strong>El Árbol:</strong></li>
-                        <li><span>Simboliza la naturaleza que queremos recuperar para ustedes, para las próximas generaciones y para nosotros.</span></li>
+                        <li><strong>El Cactus:</strong></li>
+                        <li><span>el cactus es por excelencia icono de los paisajes del viejo oeste, representa la vida misma:  se debe tener raíces fuertes que te brinden estabilidad, debes cuidarte sin ánimo de herir a nadie y debes tener la suficiente fortaleza para resistir los momentos difíciles, pero también debes mostrarte vigoroso, dando así gracias por vivir.</span></li>
                         <li><strong>El Vaquero:</strong></li>
                         <li><span>Simboliza todos los viajeros que llegan a nuestro hotel con la ilusión de <strong class="type_2">vivir una experiencia que trascienda en el tiempo.</strong></span></li>
                         <li><strong>El Caballo:</strong></li>
