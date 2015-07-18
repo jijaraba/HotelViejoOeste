@@ -43,6 +43,7 @@
     @yield("facebook_visitantes")
     @yield("facebook_cabain")
     @yield("facebook_contact")
+    @yield('google_convert')
     @yield('googlemaps')
     @yield('maps')
 </head>

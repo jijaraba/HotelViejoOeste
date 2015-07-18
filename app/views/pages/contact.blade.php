@@ -3,30 +3,55 @@
 @section("description", "Contamos con personal calificado, el cual está dispuesto a ofrecerle una excelente orientación en todos nuestros planes de hospedaje. ")
 @section("facebook_contact")
     <!-- Facebook Conversion Code for Contacto -->
-    <script>(function() {
-      var _fbq = window._fbq || (window._fbq = []);
-      if (!_fbq.loaded) {
-        var fbds = document.createElement('script');
-        fbds.async = true;
-        fbds.src = '//connect.facebook.net/en_US/fbds.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(fbds, s);
-        _fbq.loaded = true;
-      }
-    })();
-    window._fbq = window._fbq || [];
-    window._fbq.push(['track', '6024279696273', {'value':'0.00','currency':'COP'}]);
+    <script>(function () {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+                var fbds = document.createElement('script');
+                fbds.async = true;
+                fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(fbds, s);
+                _fbq.loaded = true;
+            }
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', '6024279696273', {'value': '0.00', 'currency': 'COP'}]);
     </script>
-    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6024279696273&amp;cd[value]=0.00&amp;cd[currency]=COP&amp;noscript=1" /></noscript>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6024279696273&amp;cd[value]=0.00&amp;cd[currency]=COP&amp;noscript=1"/>
+    </noscript>
+@stop
+@section("google_convert")
+    <!-- Google Code for Contacto Conversion Page -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 970199431;
+        var google_conversion_language = "en";
+        var google_conversion_format = "3";
+        var google_conversion_color = "ffffff";
+        var google_conversion_label = "rq4tCIPGvF4Qh6PQzgM";
+        var google_remarketing_only = false;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt=""
+                 src="//www.googleadservices.com/pagead/conversion/970199431/?label=rq4tCIPGvF4Qh6PQzgM&amp;guid=ON&amp;script=0"/>
+        </div>
+    </noscript>
 @stop
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
-        <img id="slider_desktop" src="img/slider/desktop/slider03.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>
-        <img id="slider_mobile" src="img/slider/mobile/slider03.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia" />
+        <img id="slider_desktop" src="img/slider/desktop/slider03.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"
+             onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>
+        <img id="slider_mobile" src="img/slider/mobile/slider03.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"/>
+
         <div class="viejooeste-baseline">
             <div class="container-baseline">
                 <div class="center">
                     <h2></h2>
+
                     <p></p>
                 </div>
             </div>
@@ -45,13 +70,18 @@
                         <span class="viejooeste-icon-contact"></span>
                     </div>
                     <h2>Contáctenos</h2>
-                    <p>Permítanos conocer todas sus <strong>dudas y sugerencias</strong> en cuanto a nuestra planes de hospedaje y demás servicios ofrecedos por el Hotel Viejo Oeste.</p>
+
+                    <p>Permítanos conocer todas sus <strong>dudas y sugerencias</strong> en cuanto a nuestra planes de
+                        hospedaje y demás servicios ofrecedos por el Hotel Viejo Oeste.</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="viejooeste-service viejooeste-feature-container" id="viejooeste_service">
-        <img src="img/mision.jpg" alt="Servicios Hotel Viejo Oeste - Doradal Antioquia" title="Servicios Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeight('#viejooeste_service')"/>
+        <img src="img/mision.jpg" alt="Servicios Hotel Viejo Oeste - Doradal Antioquia"
+             title="Servicios Hotel Viejo Oeste - Doradal Antioquia"
+             onload="ViejoOesteUtils.Global.setHeight('#viejooeste_service')"/>
+
         <div class="feature imagen-block">
             <div class="block">
                 <div class="vertical-align">
@@ -67,34 +97,37 @@
                     <h2>Diligenciar formulario</h2>
                     <?php if (Session::get('alert_success')): ?>
                     <div class="viejooeste-form-success">
-                    {{ Session::get('alert_success');}}
+                        {{ Session::get('alert_success');}}
                     </div>
                     <?php endif ?>
                     {{ Form::open(array('url' => 'email', 'method' => 'post', 'class' => 'viejooeste-form-contact', "id" => "form")) }}
-                        {{Form::token();}}
-                        <!-- Nombre -->
-                        {{ Form::label("viejooeste-form-name","Nombre:") }}
-                        {{Form::text('viejooeste-form-name','',array('placeholder' => 'Nombre Completo', 'required'=>true));}}
-                        <!-- Email -->
-                        {{ Form::label("viejooeste-form-email","Email:") }}
-                        {{Form::email('viejooeste-form-email','',array('placeholder' => 'Email', 'required'=>true));}}
-                        <!-- Phone -->
-                        {{ Form::label("viejooeste-form-phone","Teléfono:") }}
-                        {{Form::number('viejooeste-form-phone','',array('placeholder' => 'Teléfono', 'required'=>true));}}
-                        <!-- Subject -->
-                        {{ Form::label("viejooeste-form-subject","Asunto:") }}
-                        {{Form::text('viejooeste-form-subject','',array('placeholder' => 'Asunto', 'required'=>true));}}
-                        <!-- Detail -->
-                         {{ Form::label("viejooeste-form-detail","Detalle:") }}
-                        {{Form::textarea('viejooeste-form-detail','',array('placeholder' => 'Detalle', 'required'=>true));}}
-                        {{Form::submit('Enviar')}}
+                    {{Form::token();}}
+                    <!-- Nombre -->
+                    {{ Form::label("viejooeste-form-name","Nombre:") }}
+                    {{Form::text('viejooeste-form-name','',array('placeholder' => 'Nombre Completo', 'required'=>true));}}
+                    <!-- Email -->
+                    {{ Form::label("viejooeste-form-email","Email:") }}
+                    {{Form::email('viejooeste-form-email','',array('placeholder' => 'Email', 'required'=>true));}}
+                    <!-- Phone -->
+                    {{ Form::label("viejooeste-form-phone","Teléfono:") }}
+                    {{Form::number('viejooeste-form-phone','',array('placeholder' => 'Teléfono', 'required'=>true));}}
+                    <!-- Subject -->
+                    {{ Form::label("viejooeste-form-subject","Asunto:") }}
+                    {{Form::text('viejooeste-form-subject','',array('placeholder' => 'Asunto', 'required'=>true));}}
+                    <!-- Detail -->
+                    {{ Form::label("viejooeste-form-detail","Detalle:") }}
+                    {{Form::textarea('viejooeste-form-detail','',array('placeholder' => 'Detalle', 'required'=>true));}}
+                    {{Form::submit('Enviar')}}
                     {{ Form::close() }}
                 </div>
             </div>
         </div>
     </section>
     <section class="viejooeste-service viejooeste-feature-container" id="viejooeste_service">
-        <img src="img/contact.jpg" alt="Servicios Hotel Viejo Oeste - Doradal Antioquia" title="Servicios Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeight('#viejooeste_service')"/>
+        <img src="img/contact.jpg" alt="Servicios Hotel Viejo Oeste - Doradal Antioquia"
+             title="Servicios Hotel Viejo Oeste - Doradal Antioquia"
+             onload="ViejoOesteUtils.Global.setHeight('#viejooeste_service')"/>
+
         <div class="feature imagen-block">
             <div class="block">
                 <div class="vertical-align">
