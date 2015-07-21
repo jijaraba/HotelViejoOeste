@@ -200,12 +200,6 @@
                         <h4>María Paula Prada</h4>
                     </div>
                 </blockquote>
-                <blockquote class="client">
-                    <div class="body">
-                        <p>Muy buen servicio, la atención es excelente. Muchas gracias</p>
-                        <h4>María Paula Prada</h4>
-                    </div>
-                </blockquote>
             </section>
             <div class="clearfix"></div>
             <nav>
