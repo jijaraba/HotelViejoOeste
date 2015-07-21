@@ -118,6 +118,12 @@
             <section id="testimonies" class="testimonies">
                 <blockquote class="client">
                     <div class="body">
+                        <p>Un sitio magico, de fantasía, original, muy acogedor; nuestros hijos disfrutaron de todo su encanto al igual que nosotros, la atención personalizada sobresale notablemente, gracias por brindarnos un fin de semana diferente, en un lugar diferente, comida diferente.....lo mejor.... La cabana Vaqueros.. Sencillamente espectacular. RECOMENDADO 100%</p>
+                        <h4>Javier Orlando Roa y Familia</h4>
+                    </div>
+                </blockquote>
+                <blockquote class="client">
+                    <div class="body">
                         <p>Muy buena temática. Muy familiar y acogedor. Buena forma de hacerlo sentir en familia.</p>
                         <h4>Julio Medina</h4>
                     </div>
@@ -236,7 +242,7 @@
                             <li><strong>Hotel Viejo Oeste - Doradal (Antioquia)</strong></li>
                             <li><span class="fa fa-at fa-lg"></span><span style="margin-left: 5px">Correo:</span> info@hotelviejooeste.com</li>
                             <li><span class="fa fa-cloud fa-lg"></span><span style="margin-left: 5px">Reservas</span></li>
-                            <li>3207488352 - 3217872254</li>
+                            <li>3207488352 - 3207979318 - 3217872254</li>
                         </ul>
                     </li>
                 </ul>
