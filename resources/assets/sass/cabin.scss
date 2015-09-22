@@ -509,23 +509,25 @@ input[type="radio"]:checked + label {
         width: 200px;
         display: table-cell;
         position: relative;
-        &:hover {
-          span {
-            display: block;
+        a {
+          &:hover {
+            span {
+              display: block;
+            }
           }
-        }
-        img {
-          border-radius: 5px;
-        }
-        span {
-          transition: all 1s ease;
-          display: none;
-          position: absolute;
-          z-index: 2;
-          color: white;
-          text-align: center;
-          top: 60px;
-          width: 100%;
+          img {
+            border-radius: 5px;
+          }
+          span {
+            transition: all 1s ease;
+            display: none;
+            position: absolute;
+            z-index: 2;
+            color: white;
+            text-align: center;
+            top: 60px;
+            width: 100%;
+          }
         }
       }
     }
