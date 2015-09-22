@@ -2114,9 +2114,9 @@ input[type="radio"]:checked + label {
           position: absolute;
           z-index: 2;
           color: white;
-          margin: 0px auto;
+          text-align: center;
           top: 60px;
-          left: 80px; }
+          width: 100%; }
   .cabin-detail > .capacity {
     margin: 10px auto;
     width: 60%;

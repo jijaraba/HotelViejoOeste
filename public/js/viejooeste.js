@@ -36,8 +36,9 @@
         });
         $('.slider-cabin-container').magnificPopup({
           delegate: 'a', // child items selector, by clicking on it popup will open
-          type: 'image'
-          // other options
+          type: 'image',
+          removalDelay: 300,
+          mainClass: 'mfp-fade'
         });
         $("#cotrafa").bind("click", function() {
           $("#cotrafa-show").fadeIn("slow");
