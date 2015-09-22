@@ -47,6 +47,15 @@ ViejoOeste =
         adaptiveHeight: true
       )
 
+      ##Slider Cabin
+      $('.slider-cabin-container').magnificPopup(
+        delegate: 'img',
+        type: 'image',
+        gallery: {
+          enabled:true
+        }
+      )
+
       ## Convenios Cotrafa
       $("#cotrafa").bind "click", ->
         $("#cotrafa-show").fadeIn("slow");

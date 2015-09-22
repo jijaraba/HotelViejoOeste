@@ -508,8 +508,24 @@ input[type="radio"]:checked + label {
       li {
         width: 200px;
         display: table-cell;
+        position: relative;
+        &:hover {
+          span {
+            display: block;
+          }
+        }
         img {
           border-radius: 5px;
+        }
+        span {
+          transition: all 1s ease;
+          display: none;
+          position: absolute;
+          z-index: 2;
+          color: white;
+          margin: 0px auto;
+          top: 60px;
+          left: 80px;
         }
       }
     }

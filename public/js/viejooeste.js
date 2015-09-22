@@ -34,6 +34,11 @@
           infinite: true,
           adaptiveHeight: true
         });
+        $('.slider-cabin-container').magnificPopup({
+          delegate: 'a', // child items selector, by clicking on it popup will open
+          type: 'image'
+          // other options
+        });
         $("#cotrafa").bind("click", function() {
           $("#cotrafa-show").fadeIn("slow");
           return $("#coopantex-show").fadeOut("slow");
