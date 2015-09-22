@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/app.css?v={{ Hash::make(time()) }}"/>
     @yield("rotator_css")
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/js/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/js/Utils.js"></script>
     <script src="/js/vendor/html5shiv/html5shiv.js"></script>
@@ -244,6 +245,7 @@
         </div>
      </footer>
     <script src="/js/vendor/slick.js/slick.min.js"></script>
+    <script src="/js/vendor/magnific-popup/jquery.magnific-popup.js"></script>
     <script src="/js/viejooeste.js"></script>
     @yield("rotator_js")
 </body>
