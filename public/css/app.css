@@ -683,7 +683,7 @@ header {
 .viejooeste-down {
   position: absolute;
   bottom: 25px;
-  transition: all 0.5s ease-in;
+  transition: all .5s ease-in;
   left: 0;
   right: 0;
   width: 100%;
@@ -696,7 +696,7 @@ header {
 /** Start Icons Section  **/
 .viejooeste-icon-container {
   margin-bottom: 30px;
-  transition: all 0.5s ease-in;
+  transition: all .5s ease-in;
   left: 0;
   right: 0;
   width: 100%;
@@ -2104,11 +2104,11 @@ input[type="radio"]:checked + label {
         width: 200px;
         display: table-cell;
         position: relative; }
-        .cabin-detail > .slider ul li:hover span {
+        .cabin-detail > .slider ul li a:hover span {
           display: block; }
-        .cabin-detail > .slider ul li img {
+        .cabin-detail > .slider ul li a img {
           border-radius: 5px; }
-        .cabin-detail > .slider ul li span {
+        .cabin-detail > .slider ul li a span {
           transition: all 1s ease;
           display: none;
           position: absolute;
