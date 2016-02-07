@@ -47,13 +47,17 @@
             @endif
         </ul>
     </div>
-    <div class="capacity">Capacidad {{ $cabin->capacity }}</div>
+    <div class="capacity">Capacidad {{ $cabin->capacity }} personas</div>
     <div class="rate">
         <ul class="display-horizontal col-100">
             <li class="col-45 gutter-5 ls"><span>Temporada baja</span><br>${{ $cabin->rate_ls }}</li>
             <li class="col-10 gutter-5"></li>
             <li class="col-45 gutter-5 hs"><span>Temporada alta</span><br>${{ $cabin->rate_hs }}</li>
-            <li class="col-100">Incluye desayuno al estilo <strong>Viejo Oeste</strong>
+            <li class="col-100">
+                <p>Incluye desayuno al estilo <strong>Viejo Oeste</strong></p>
+                <p><strong>Checkin</strong>: 2:00 p.m. -  <strong>Checkout</strong>: 12:00 p.m.</p>
+                <p>Valor hora adicional: $10.000</p>
+                <p style="padding-top: 20px;font-weight: bold;">* No reembolsamos dinero</p>
             </li>
         </ul>
     </div>

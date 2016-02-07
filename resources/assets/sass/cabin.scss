@@ -74,9 +74,7 @@ select{
   -moz-appearance:none;
   appearance:none;
 }
-select::-ms-expand {
-  display: none;
-}
+
 select option {
   padding-left: 12px;
 }

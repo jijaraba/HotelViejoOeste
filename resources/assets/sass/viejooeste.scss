@@ -61,7 +61,7 @@ header {
             padding: 15px 40px;
             border-radius: 10px;
             transition: background 250ms;
-            margin-right: 6px;
+            width:250px;
             &:hover {
               background-color: $viejooeste-color05;
             }
@@ -1126,6 +1126,22 @@ select {
   &:before {
     content: "20%";
   }
+}
+
+#viejooeste_audio {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 999;
+  font: {
+    size: 2em;
+  }
+  color:#e69000;
+  &:before {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  }
+  cursor: pointer;
+  width: 40px;
 }
 
 @keyframes discount {

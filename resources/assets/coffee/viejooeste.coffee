@@ -17,7 +17,6 @@ ViejoOeste =
       #Detectar posición del nodo
       contained = $("#landing_cabin").height();
       if contained >= $(window).scrollTop()
-        console.log("sdasdas");
         $("#slider_container").css("top", ($(window).scrollTop()) + "px");
       return
 
@@ -28,7 +27,6 @@ ViejoOeste =
       return
 
     @gallery_global= () ->
-      console.log "Hola"
       $("#viejooeste_gallery_display").find("ul.items > li.global").fadeOut(1000)
       $("#viejooeste_gallery_display").find("ul.items > li.espacios").fadeIn(1000)
       return
@@ -99,6 +97,7 @@ ViejoOeste =
       ## Menu Options Gallery
       options_gallery = $("#viejooeste_container_options_gallery").find("li").click (e) ->
         e.preventDefault()
+
         ## Remove Active Class
         options_gallery.removeClass("active")
         ## Select Element
@@ -291,6 +290,22 @@ ViejoOeste =
           vaqueros.find("div#vaqueros_photo > img").attr("src",photo_path)
           vaqueros.find("div#vaqueros_photo > img").fadeIn(1000)
         return
+
+
+      ##Audio#
+      audio_status = 'play'
+      $("#viejooeste_audio").click (e) ->
+        e.preventDefault()
+        if audio_status == 'play'
+          $("#viejooeste_play").trigger('play');
+          $("#viejooeste_audio").removeClass("fa-volume-off")
+          $("#viejooeste_audio").addClass("fa-volume-up")
+          audio_status = 'stop'
+        else
+          $("#viejooeste_play").trigger('pause');
+          $("#viejooeste_audio").removeClass("fa-volume-up")
+          $("#viejooeste_audio").addClass("fa-volume-off")
+          audio_status = 'play'
 
     @init(options)
 

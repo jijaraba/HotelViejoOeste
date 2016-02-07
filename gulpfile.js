@@ -1,4 +1,5 @@
-var elixir = require('laravel-elixir');
+var elixir = require('laravel-elixir'),
+    path = require('path');
 
 /*
  |--------------------------------------------------------------------------
@@ -22,5 +23,7 @@ elixir(function(mix) {
 });
 
 elixir(function(mix) {
-    mix.coffee();
+    mix.coffee('map.coffee', 'public/js/map.js', null);
+    mix.coffee('Utils.coffee', 'public/js/Utils.js', null);
+    mix.coffee('viejooeste.coffee', 'public/js/viejooeste.js', null);
 });

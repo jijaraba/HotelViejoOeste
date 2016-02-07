@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/slick.css?v={{ Hash::make(time()) }}"/>
     <link rel="stylesheet" href="/css/app.css?v={{ Hash::make(time()) }}"/>
     @yield("rotator_css")
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/js/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/js/Utils.js"></script>
@@ -242,6 +242,12 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+        <div id="viejooeste_audio" class="fa fa-volume-up">
+            <audio autoplay loop="1" id="viejooeste_play">
+               <source src="music/viejooeste.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
      </footer>
     <script src="/js/vendor/slick.js/slick.min.js"></script>
