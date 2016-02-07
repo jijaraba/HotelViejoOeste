@@ -55,13 +55,13 @@
         </div>
         <div class="viejooeste-menu">
             <ul class="display-horizontal col-100">
-                <li class="col-60">
+                <li class="col-60 gutter-05">
                    <a href="{{ URL::route('pages.booking') }}">
                     <span>RESERVAR CABAÑA</span>
                     <span class="viejooeste-icon-reserve fa fa-caret-right fa-2x"></span>
                    </a>
                 </li>
-                <li class="col-40">
+                <li class="col-40 gutter-05">
                     <a href="#" id="viejooeste_menu">
                         <span id="viejooeste_menu_text">MENÚ</span>
                         <span id="viejooeste_menu_icon" class="fa fa-bars fa-lg"></span>
