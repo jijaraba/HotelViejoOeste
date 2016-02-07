@@ -293,7 +293,9 @@ ViejoOeste =
 
 
       ##Audio#
-      audio_status = 'play'
+      audio_status = 'stop'
+      $("#viejooeste_play").trigger('play');
+
       $("#viejooeste_audio").click (e) ->
         e.preventDefault()
         if audio_status == 'play'
