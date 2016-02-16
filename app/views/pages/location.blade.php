@@ -55,11 +55,27 @@
                 <div class="vertical-align">
                     <h2>Localización</h2>
 
-                    <p>Estamos ubicados a 500mt diagonal a la <a href="http://www.haciendanapoles.com/"
-                                                                 style="color:#e69000;">Hacienda Nápoles</a>, 15 minutos
+                    <p>
+                        Estamos ubicados a 500mt diagonal a la <a href="http://www.haciendanapoles.com/" style="color:#e69000;">Hacienda Nápoles</a>, 15 minutos
                         hacia Medellín de la Reserva Natural Río Claro, a 15 minutos hacia Bogotá del malecón de Puerto
                         Trinfo y a escasos minutos de hermosos charcos naturales de la región como San Juan, Sonia y
-                        Piedras Blancas.</p>
+                        Piedras Blancas.
+                    </p>
+                    <section class="localization-photos">
+                    <ul class="display-horizontal col-70">
+                        <li class="col-30">
+                            <img src="img/localization/localization01.jpg" alt="Charco Natural - Sonia">
+                        </li>
+                        <li class="col-05"></li>
+                        <li class="col-30">
+                            <img src="img/localization/localization02.jpg" alt="Charco Natural - Sonia">
+                        </li>
+                        <li class="col-05"></li>
+                        <li class="col-30">
+                            <img src="img/localization/localization03.jpg" alt="Charco Natural - Sonia">
+                        </li>
+                    </ul>
+                    </section>
                 </div>
             </div>
         </div>
