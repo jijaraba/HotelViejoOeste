@@ -47,8 +47,14 @@
     @yield('google_convert')
     @yield('googlemaps')
     @yield('maps')
+    <script type="text/javascript">
+        function init() {
+            var myAudio = document.getElementById("viejooeste_play");
+            myAudio.play()
+        }
+    </script>
 </head>
-<body>
+<body onload="init();">
     <header>
         <div class="viejooeste-logo">
             <a href="/"><img src="img/logo_desktop.png" alt="Hotel Viejo Oeste - Doradal Antioquia"/></a>
@@ -244,7 +250,7 @@
             </nav>
         </div>
         <div id="viejooeste_audio" class="fa fa-volume-up">
-            <audio loop="1" id="viejooeste_play" preload="auto">
+            <audio loop="1" id="viejooeste_play">
                <source src="music/viejooeste.mp3" type="audio/mpeg">
                <source src="music/viejooeste.ogg" type="audio/ogg">
                 Your browser does not support the audio element.

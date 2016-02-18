@@ -291,20 +291,19 @@ ViejoOeste =
           vaqueros.find("div#vaqueros_photo > img").fadeIn(1000)
         return
 
-
       ##Audio#
       audio_status = 'stop'
-      $("#viejooeste_play").trigger('play');
+      #$("#viejooeste_play").trigger('play');
 
       $("#viejooeste_audio").click (e) ->
         e.preventDefault()
         if audio_status == 'play'
-          $("#viejooeste_play").trigger('play');
+          #$("#viejooeste_play").trigger('play');
           $("#viejooeste_audio").removeClass("fa-volume-off")
           $("#viejooeste_audio").addClass("fa-volume-up")
           audio_status = 'stop'
         else
-          $("#viejooeste_play").trigger('pause');
+          #$("#viejooeste_play").trigger('pause');
           $("#viejooeste_audio").removeClass("fa-volume-up")
           $("#viejooeste_audio").addClass("fa-volume-off")
           audio_status = 'play'
