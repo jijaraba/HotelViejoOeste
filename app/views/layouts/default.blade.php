@@ -246,6 +246,7 @@
         <div id="viejooeste_audio" class="fa fa-volume-up">
             <audio loop="1" id="viejooeste_play">
                <source src="music/viejooeste.mp3" type="audio/mpeg">
+               <source src="music/viejooeste.ogg" type="audio/ogg">
                 Your browser does not support the audio element.
             </audio>
         </div>
