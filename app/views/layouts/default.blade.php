@@ -47,14 +47,8 @@
     @yield('google_convert')
     @yield('googlemaps')
     @yield('maps')
-    <script type="text/javascript">
-        function init() {
-            var myAudio = document.getElementById("viejooeste_play");
-            myAudio.play()
-        }
-    </script>
 </head>
-<body onload="init();">
+<body>
     <header>
         <div class="viejooeste-logo">
             <a href="/"><img src="img/logo_desktop.png" alt="Hotel Viejo Oeste - Doradal Antioquia"/></a>
