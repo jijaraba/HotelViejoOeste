@@ -48,6 +48,12 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .viejooeste-modal {
+    width:420px;
+    height: 210px;
+  }
+}
 
 @media screen and (max-width: 360px) {
   .viejooeste-modal {
