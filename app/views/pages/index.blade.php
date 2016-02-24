@@ -22,6 +22,22 @@
                    src="https://www.facebook.com/tr?ev=6024279725873&amp;cd[value]=1.00&amp;cd[currency]=COP&amp;noscript=1"/>
     </noscript>
 @stop
+@section('modal_show')
+    <div class="viejooeste-modal">
+        <div class="close"></div>
+        <div>
+            <img src="/img/campaign/campaign.png" alt="Semana Santa">
+        </div>
+    </div>
+    <div class="viejooeste-mask"></div>
+@stop
+@section("modal_css")
+    <link rel="stylesheet" href="/css/modal.css"/>
+@stop
+@section("modal_js")
+    <script src="/js/modal.js"></script>
+@stop
+
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
         <img id="slider_desktop" src="img/slider/desktop/slider06.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"

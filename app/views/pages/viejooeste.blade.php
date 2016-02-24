@@ -67,7 +67,7 @@
                         <span class="viejooeste-icon-mision"></span>
                     </div>
                     <h2>Valores</h2>
-                    <ul>
+                    <ul class="list">
                         <li>Respeto</li>
                         <li>Innovación</li>
                         <li>Confianza</li>
@@ -75,6 +75,26 @@
                         <li>Responsabilidad</li>
                         <li></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="viejooeste-service viejooeste-feature-container" id="viejooeste_service">
+        <img src="img/employees.jpg" alt="Empleados Hotel Viejo Oeste - Doradal Antioquia" title="Empleados Hotel Viejo Oeste - Doradal Antioquia" onload="ViejoOesteUtils.Global.setHeight('#viejooeste_service')"/>
+        <div class="feature imagen-block">
+            <div class="block">
+                <div class="vertical-align">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="viejooeste-mision viejooeste-feature-container">
+        <div class="feature text-block">
+            <div class="block">
+                <div class="vertical-align">
+                    <h2>Nuestros Empleados</h2>
+                    <p>Siempre dispuestos a brindarles el mejor servicio</p>
                 </div>
             </div>
         </div>
@@ -97,7 +117,7 @@
                     <img src="img/logo_3x.png" alt="Logo Hotel Viejo Oeste"/>
                     </div>
                     <h2>Logo</h2>
-                    <ul>
+                    <ul class="list">
                         <li><strong>El Círculo</strong></li>
                         <li><span>Simboliza el mundo creamos para nuestros clientes, inspirado en el Viejo Oeste</span></li>
                         <li><strong>El Cactus:</strong></li>

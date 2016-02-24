@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/slick.css?v={{ Hash::make(time()) }}"/>
     <link rel="stylesheet" href="/css/app.css?v={{ Hash::make(time()) }}"/>
     @yield("rotator_css")
+    @yield("modal_css")
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/js/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -49,6 +50,7 @@
     @yield('maps')
 </head>
 <body>
+    @yield('modal_show')
     <header>
         <div class="viejooeste-logo">
             <a href="/"><img src="img/logo_desktop.png" alt="Hotel Viejo Oeste - Doradal Antioquia"/></a>
@@ -255,5 +257,6 @@
     <script src="/js/vendor/magnific-popup/jquery.magnific-popup.js"></script>
     <script src="/js/viejooeste.js"></script>
     @yield("rotator_js")
+    @yield("modal_js")
 </body>
 </html>

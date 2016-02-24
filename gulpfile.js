@@ -20,10 +20,12 @@ elixir(function(mix) {
         'viejooeste.scss',
         'cabin.scss'
     ]);
+    mix.sass('modal.scss', 'public/css/modal.css');
 });
 
 elixir(function(mix) {
     mix.coffee('map.coffee', 'public/js/map.js', null);
     mix.coffee('Utils.coffee', 'public/js/Utils.js', null);
     mix.coffee('viejooeste.coffee', 'public/js/viejooeste.js', null);
+    mix.coffee('modal.coffee', 'public/js/modal.js', null);
 });

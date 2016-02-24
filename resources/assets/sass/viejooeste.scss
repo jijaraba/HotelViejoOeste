@@ -1,5 +1,6 @@
 @import ".core";
 @import ".font";
+
 body {
   font: {
     size: 16px;
@@ -9,21 +10,25 @@ body {
   }
 
 }
+
 img {
   width: 100%;
 }
+
 h1 {
   font: {
     family: $viejooeste-font-family-07;
     size: 1.3em;
   }
 }
+
 h2 {
   font: {
     family: $viejooeste-font-family-07;
     size: 1.2em;
   }
 }
+
 header {
   overflow: hidden;
   width: 100%;
@@ -36,7 +41,7 @@ header {
   font-size: 4em;
   .viejooeste-logo {
     position: relative;
-    float:left;
+    float: left;
     margin-left: 30px;
     height: 130px;
     width: 130px;
@@ -61,13 +66,13 @@ header {
             padding: 15px 40px;
             border-radius: 10px;
             transition: background 250ms;
-            width:250px;
+            width: 250px;
             &:hover {
               background-color: $viejooeste-color05;
             }
           }
         }
-        &:nth-child(2){
+        &:nth-child(2) {
           a {
             background-color: $viejooeste-color14;
             padding: 15px 40px;
@@ -84,7 +89,7 @@ header {
     position: relative;
     height: 150px;
     width: 90%;
-    .viejooeste-menu-content{
+    .viejooeste-menu-content {
       border-right: dotted 1px $viejooeste-color02;
       width: 50%;
       float: left;
@@ -96,6 +101,7 @@ header {
         display: inline-block;
         margin-right: 50px;
         position: relative;
+        text-align: center;
         a {
           text-align: center;
           .img {
@@ -136,7 +142,7 @@ header {
   }
 }
 
-.viejooeste-container-slider{
+.viejooeste-container-slider {
   position: relative;
   font-size: 3em;
   width: 100%;
@@ -232,12 +238,14 @@ header {
     }
   }
 }
+
 .link-outbound {
   color: $viejooeste-color01;
 }
+
 /**### Start Container Global Section ###**/
 
-.viejooeste-container-global{
+.viejooeste-container-global {
   position: relative;
   font-size: 3em;
   background-size: cover;
@@ -265,6 +273,7 @@ header {
     text-align: center;
   }
 }
+
 .viejooeste-container-bg {
   .viejooeste-container-imagen {
     position: absolute;
@@ -276,6 +285,7 @@ header {
     }
   }
 }
+
 .viejooeste-container-options {
   margin-top: 40px;
   li {
@@ -309,12 +319,14 @@ header {
     }
   }
 }
+
 /** Gallery **/
 .viejooeste-gallery-color {
   background: linear-gradient(135deg, $viejooeste-color09 0%, $viejooeste-color09 22%, $viejooeste-color09 22%, $viejooeste-color06 58%, $viejooeste-color06 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1);
   color: $viejooeste-color07;
 }
+
 .viejooeste-container-content {
   position: relative;
   width: 100%;
@@ -331,6 +343,7 @@ header {
     }
   }
 }
+
 .viejooeste-gallery-display {
   position: relative;
   width: 90%;
@@ -346,7 +359,7 @@ header {
       padding: 15px;
       margin-bottom: 20px;
       background: $viejooeste-color10 linear-gradient(135deg, $viejooeste-color11 0%, $viejooeste-color10 47%, $viejooeste-color10 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{$viejooeste-color11}, endColorstr=#{$viejooeste-color10}, GradientType=1 );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$viejooeste-color11}, endColorstr=#{$viejooeste-color10}, GradientType=1);
       border-radius: 2px;
     }
   }
@@ -355,14 +368,16 @@ header {
 /** Cabin +*/
 .viejooeste-cabin-color {
   background: linear-gradient(135deg, $viejooeste-color09 0%, $viejooeste-color09 22%, $viejooeste-color09 22%, $viejooeste-color06 58%, $viejooeste-color06 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1);
   color: $viejooeste-color07;
 }
+
 .viejooeste-cabin-display {
   position: relative;
   width: 90%;
   margin: 40px auto;
 }
+
 .viejooeste-cabin-display {
   position: relative;
   width: 100%;
@@ -374,7 +389,7 @@ header {
     display: none;
   }
   .cabin {
-   > ul {
+    > ul {
       list-style: none;
       display: flex;
       flex-flow: row wrap;
@@ -385,7 +400,7 @@ header {
         padding: 15px;
         margin-bottom: 20px;
         background: linear-gradient(135deg, $viejooeste-color09 0%, $viejooeste-color09 22%, $viejooeste-color09 22%, $viejooeste-color06 58%, $viejooeste-color06 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1 );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1);
         width: 400px;
         height: 450px;
         h3 {
@@ -417,7 +432,7 @@ header {
             flex-direction: row;
             justify-content: flex-start;
             flex-flow: row wrap;
-            box-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
             li {
               list-style: none;
               display: inline-block;
@@ -428,13 +443,14 @@ header {
               border-right: 1px dotted #fff;
               font: {
                 size: 0.9em;
-              };
+              }
+            ;
               &:nth-child(2) {
-                border-right:none;
+                border-right: none;
               }
               &:nth-child(3) {
                 padding-top: 10px;
-                border-right:none;
+                border-right: none;
                 border-top: 1px dotted #fff;
                 margin-top: 10px;
                 width: 100%;
@@ -443,7 +459,8 @@ header {
                 font: {
                   size: 1.0em;
                   weight: bold;
-                };
+                }
+              ;
               }
             }
           }
@@ -458,7 +475,7 @@ header {
               position: relative;
               &:before {
                 content: " ";
-                background-color: rgba(230,144,0,.1);
+                background-color: rgba(230, 144, 0, .1);
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -486,7 +503,7 @@ header {
                 color: $viejooeste-color07;
                 margin: 10px 0px;
                 background: linear-gradient(135deg, $viejooeste-color09 0%, $viejooeste-color09 22%, $viejooeste-color09 22%, $viejooeste-color06 58%, $viejooeste-color06 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1 );
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1);
                 width: 100px;
                 height: 75px;
                 border-top: 5px solid transparent;
@@ -504,7 +521,7 @@ header {
                 }
                 &:before {
                   content: " ";
-                  background-color: rgba(230,144,0,.1);
+                  background-color: rgba(230, 144, 0, .1);
                   position: absolute;
                   width: 100%;
                   height: 100%;
@@ -526,7 +543,6 @@ header {
 }
 
 /**### End Container Global Section ###**/
-
 
 .viejooeste-feature-container {
   position: relative;
@@ -555,12 +571,15 @@ header {
     }
   }
 }
+
 .imagen-block {
   position: absolute;
 }
+
 .text-block {
   position: relative;
 }
+
 .viejooeste-mision {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -645,12 +664,12 @@ header {
       }
     }
   }
-  > ul {
-      margin-top: 20px;
-      list-style: none;
-      display: block;
-      flex-flow: row wrap;
-      justify-content: space-around;
+  ul.list {
+    margin-top: 20px;
+    list-style: none;
+    display: block;
+    flex-flow: row wrap;
+    justify-content: space-around;
     > li {
       padding: 5px;
       flex-flow: wrap;
@@ -683,6 +702,7 @@ header {
     }
   }
 }
+
 .viejooeste-gallery {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -710,6 +730,7 @@ header {
     }
   }
 }
+
 .viejooeste-service {
   position: relative;
   height: auto;
@@ -728,9 +749,10 @@ header {
     text-align: center;
     margin: 0px auto;
     width: 90%;
-    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
   }
 }
+
 .viejooeste-cabin {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -756,6 +778,7 @@ header {
     }
   }
 }
+
 .viejooeste-spaces {
   position: relative;
   width: 100%;
@@ -767,9 +790,10 @@ header {
     }
     text-align: center;
     width: 100%;
-    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
   }
 }
+
 .viejooeste-down {
   position: absolute;
   bottom: 25px;
@@ -786,6 +810,7 @@ header {
     color: $viejooeste-color02;
   }
 }
+
 /** Start Icons Section  **/
 .viejooeste-icon-container {
   margin-bottom: 30px;
@@ -795,6 +820,7 @@ header {
   width: 100%;
   text-align: center;
 }
+
 .viejooeste-icon-indicator {
   height: 47px;
   width: 55px;
@@ -803,9 +829,10 @@ header {
   display: inline-block;
   background: url('../img/viejooeste-icon-indicator-large.png') no-repeat;
   &:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 }
+
 .viejooeste-icon-mision {
   width: 47px;
   height: 70px;
@@ -813,9 +840,10 @@ header {
   display: inline-block;
   background: url('../img/viejooeste-icon-mision.png') no-repeat;
   &:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 }
+
 .viejooeste-icon-contact {
   width: 60px;
   height: 35px;
@@ -823,9 +851,10 @@ header {
   display: inline-block;
   background: url('../img/viejooeste-icon-contact.png') no-repeat;
   &:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 }
+
 .viejooeste-icon-gallery {
   width: 97px;
   height: 91px;
@@ -833,9 +862,10 @@ header {
   display: inline-block;
   background: url('../img/viejooeste-icon-gallery.png') no-repeat;
   &:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 }
+
 .viejooeste-icon-cabin {
   width: 97px;
   height: 91px;
@@ -843,13 +873,15 @@ header {
   display: inline-block;
   background: url('../img/viejooeste-icon-cabin.png') no-repeat;
   &:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
   }
 }
+
 .viejooeste-icon-reserve {
   vertical-align: middle;
   margin-left: 10px;
 }
+
 /** End Icons Section  **/
 
 footer {
@@ -920,27 +952,29 @@ footer {
     }
   }
 }
+
 .submenu {
   width: 100%;
-    > li {
-      display: block;
-       margin: 20px 0px;
-       font: {
-         size: 1em;
-       }
-       span {
-         color: $viejooeste-color01;
-       }
-       color: $viejooeste-color07;
-       a {
-         color: $viejooeste-color07;
-         img {
-           width: 20%;
-           vertical-align: middle;
-         }
-       }
-     }
+  > li {
+    display: block;
+    margin: 20px 0px;
+    font: {
+      size: 1em;
+    }
+    span {
+      color: $viejooeste-color01;
+    }
+    color: $viejooeste-color07;
+    a {
+      color: $viejooeste-color07;
+      img {
+        width: 20%;
+        vertical-align: middle;
+      }
+    }
+  }
 }
+
 .viejooeste-reserve {
   margin-top: 20px;
   width: 250px;
@@ -960,6 +994,7 @@ form {
   width: 100%;
   margin: 10px auto;
 }
+
 label {
   font: {
     size: 1.1em;
@@ -969,6 +1004,7 @@ label {
   margin: 10px 0px;
   padding: 10px 0px;
 }
+
 input {
   font-family: $viejooeste-font-family-07;
   margin: 10px 0px;
@@ -982,10 +1018,12 @@ input {
   font-size: 1em;
   border-radius: 3px;
 }
+
 input[type="submit"] {
   background-color: $viejooeste-color01;
   color: #ffffff;
 }
+
 textarea {
   font-family: $viejooeste-font-family-07;
   margin: 10px 0px;
@@ -999,11 +1037,12 @@ textarea {
   font-size: 1em;
   border-radius: 3px;
 }
+
 select {
   font-family: $viejooeste-font-family-07;
   margin: 10px 0px;
   background: linear-gradient(135deg, $viejooeste-color09 0%, $viejooeste-color09 22%, $viejooeste-color09 22%, $viejooeste-color06 58%, $viejooeste-color06 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= #{$viejooeste-color09}, endColorstr= #{$viejooeste-color06}, GradientType=1);
   border: 1px solid #cdcdcd;
   color: #5c5c5c;
   outline: none;
@@ -1013,14 +1052,17 @@ select {
   height: 50px;
   font-size: 1em;
 }
+
 .viejooeste-form {
   display: none;
 }
+
 .viejooeste-form-contact {
   text-align: left;
   width: 70%;
   margin: 20px auto;
 }
+
 .viejooeste-form-success {
   margin-top: 20px;
   width: 100%;
@@ -1029,6 +1071,7 @@ select {
   border-radius: 10px;
   color: #ffffff;
 }
+
 /**### End Form ####**/
 
 .viejooeste-table-container {
@@ -1095,7 +1138,7 @@ select {
     margin-bottom: 15px;
     > img {
       max-width: 80%;
-      cursor:pointer;
+      cursor: pointer;
       transition: all 0.2s ease;
       border-bottom: 3px solid $viejooeste-color02;
       &:hover {
@@ -1137,9 +1180,9 @@ select {
   font: {
     size: 2em;
   }
-  color:#e69000;
+  color: #e69000;
   &:before {
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
   }
   cursor: pointer;
   width: 40px;
@@ -1195,103 +1238,133 @@ select {
 //|-----------------------------------------------------------
 //*/
 .grid-100, .grid-90, .grid-80, .grid-70, .grid-60
-.grid-50, .grid-40, .grid-30, .grid-20, .grid-10
-{
+.grid-50, .grid-40, .grid-30, .grid-20, .grid-10 {
   margin-bottom: 30px;
 }
+
 .grid-100 {
   width: 100%;
 }
+
 .grid-90 {
   width: 90%;
 }
+
 .grid-80 {
   width: 80%;
 }
+
 .grid-70 {
   width: 70%;
 }
+
 .grid-60 {
   width: 60%;
 }
+
 .grid-50 {
   width: 50%;
 }
+
 .grid-40 {
   width: 40%;
 }
+
 .grid-30 {
   width: 30%;
 }
+
 .grid-20 {
   width: 20%;
 }
+
 .grid-10 {
   width: 10%;
 }
+
 .col-100, .col-90, .col-80, .col-70, .col-60
 .col-50, .col-40, .col-30, .col-20, .col-10 {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
+
 .col-100 {
   width: 100%;
 }
+
 .col-90 {
   width: 90%;
 }
+
 .col-80 {
   width: 80%;
 }
+
 .col-75 {
   width: 75%;
 }
+
 .col-70 {
   width: 70%;
 }
+
 .col-60 {
   width: 60%;
 }
+
 .col-55 {
   width: 55%;
 }
+
 .col-50 {
   width: 50%;
 }
+
 .col-45 {
   width: 40%;
 }
+
 .col-40 {
   width: 40%;
 }
+
 .col-30 {
   width: 30%;
 }
+
 .col-25 {
   width: 25%;
 }
+
 .col-20 {
   width: 20%;
 }
+
 .col-15 {
   width: 15%;
 }
+
 .col-10 {
   width: 10%;
 }
+
 .col-05 {
   width: 5%;
 }
+
 .col-00 {
   width: 0%;
   display: none;
 }
+
 .gutter-15 {
   padding: 15px;
 }
+
 .gutter-10 {
   padding: 10px;
 }
+
 .gutter-5 {
   padding: 5px;
 }
@@ -1314,7 +1387,6 @@ select {
   }
 }
 
-
 //*
 //|-----------------------------------------------------------
 //| Localization Photos
@@ -1328,16 +1400,14 @@ select {
   }
 }
 
-
-
 @media screen and (max-width: 1450px) {
   .viejooeste-container-global {
-      h2 {
-        font: {
-          size: 1.1em;
-        }
-        width: 55%;
+    h2 {
+      font: {
+        size: 1.1em;
       }
+      width: 55%;
+    }
   }
   .viejooeste-container-bg {
     .viejooeste-container-imagen {
@@ -1345,7 +1415,6 @@ select {
     }
   }
 }
-
 
 @media screen and (max-width: 1000px) {
 
@@ -1357,7 +1426,7 @@ select {
       }
     }
     .viejooeste-navigator {
-      .viejooeste-menu-content{
+      .viejooeste-menu-content {
         width: 66%;
       }
       .viejooeste-menu-main {
@@ -1443,7 +1512,7 @@ select {
 
   /** Start Gallery Section  **/
 
-  .viejooeste-container-global{
+  .viejooeste-container-global {
     font-size: 2.5em;
     background-size: cover;
     height: 550px;
@@ -1455,7 +1524,8 @@ select {
       width: 70%;
       font: {
         size: 1.0em;
-      };
+      }
+    ;
     }
     p {
       top: 230px;
@@ -1491,139 +1561,140 @@ select {
     }
   }
 }
-@media screen and (max-width: 768px) {
-    header {
-      .viejooeste-menu {
-        ul {
-          line-height: 95px;
-          width: 320px;
-          li {
-            &:first-child {
-              width: 170px;
-              a {
-                padding: 10px;
-              }
-            }
-          }
-          li:nth-child(2){
-            a {
-              padding: 10px 40px;
-              border-radius: 5px;
-            }
-          }
-        }
-      }
-      .viejooeste-navigator {
-        display: none;
-        position: relative;
-        width: 90%;
-        .viejooeste-menu-content {
-          border-right: dotted 1px $viejooeste-color02;
-          width: 50%;
-          float: left;
-          font: {
-            size: 18px;
-            family: $viejooeste-font-family-06;
-          }
-          li {
-            display: block;
-            margin-right: 50px;
-            position: relative;
-            line-height: 40px;
-            a {
-              text-align: left;
-              .img {
-                display: inline-block;
-                margin-bottom: 20px;
-                height: inherit;
-                div {
-                  display: none;
-                  vertical-align: middle;
-                }
-              }
-              span {
-                width: 100%;
-                text-align: left;
-                position: absolute;
-              }
-            }
-          }
-        }
-        .viejooeste-menu-main {
-          width: 40%;
-        }
-      }
-    }
-    .viejooeste-container-slider {
-      background-attachment: inherit;
-      .container-baseline {
-        > .center {
-          > h2 {
-            font: {
-              size: 0.8em;
-            }
-            width: 100%;
-          }
-          > p {
-            text-align: center;
-            width: 90%;
-          }
-        }
-      }
 
+@media screen and (max-width: 768px) {
+  header {
+    .viejooeste-menu {
+      ul {
+        line-height: 95px;
+        width: 320px;
+        li {
+          &:first-child {
+            width: 170px;
+            a {
+              padding: 10px;
+            }
+          }
+        }
+        li:nth-child(2) {
+          a {
+            padding: 10px 40px;
+            border-radius: 5px;
+          }
+        }
+      }
     }
-    .viejooeste-mision {
-      padding-bottom: 180px;
-      padding-top: 180px;
-      p {
+    .viejooeste-navigator {
+      display: none;
+      position: relative;
+      width: 90%;
+      .viejooeste-menu-content {
+        border-right: dotted 1px $viejooeste-color02;
+        width: 50%;
+        float: left;
+        font: {
+          size: 18px;
+          family: $viejooeste-font-family-06;
+        }
+        li {
+          display: block;
+          margin-right: 50px;
+          position: relative;
+          line-height: 40px;
+          a {
+            text-align: left;
+            .img {
+              display: inline-block;
+              margin-bottom: 20px;
+              height: inherit;
+              div {
+                display: none;
+                vertical-align: middle;
+              }
+            }
+            span {
+              width: 100%;
+              text-align: left;
+              position: absolute;
+            }
+          }
+        }
+      }
+      .viejooeste-menu-main {
+        width: 40%;
+      }
+    }
+  }
+  .viejooeste-container-slider {
+    background-attachment: inherit;
+    .container-baseline {
+      > .center {
+        > h2 {
+          font: {
+            size: 0.8em;
+          }
+          width: 100%;
+        }
+        > p {
+          text-align: center;
+          width: 90%;
+        }
+      }
+    }
+
+  }
+  .viejooeste-mision {
+    padding-bottom: 180px;
+    padding-top: 180px;
+    p {
+      font: {
+        size: 1.5em;
+      }
+      width: 90%;
+    }
+    ul {
+      li {
+        font: {
+          size: 1.2em;
+        }
+        width: 80%;
+        margin: 0px auto;
+      }
+    }
+    article.entry {
+      > h2 {
+        margin-top: 30px;
+        color: $viejooeste-color01;
+        font: {
+          size: 2.3em;
+        }
+      }
+      > p {
+        margin: 20px auto;
         font: {
           size: 1.5em;
         }
         width: 90%;
-      }
-      ul {
-        li {
+        color: $viejooeste-color12;
+        &.date {
           font: {
             size: 1.2em;
+            weight: bold;
           }
-          width: 80%;
-          margin: 0px auto;
-        }
-      }
-      article.entry {
-        > h2 {
-          margin-top: 30px;
-          color: $viejooeste-color01;
-          font: {
-            size: 2.3em;
-          }
-        }
-        > p {
-          margin: 20px auto;
-          font: {
-            size: 1.5em;
-          }
-          width: 90%;
-          color: $viejooeste-color12;
-          &.date {
-            font: {
-              size: 1.2em;
-              weight: bold;
-            }
-            color: $viejooeste-color07;
-          }
+          color: $viejooeste-color07;
         }
       }
     }
-    .viejooeste-gallery {
-        padding-bottom: 180px;
-        padding-top: 180px;
+  }
+  .viejooeste-gallery {
+    padding-bottom: 180px;
+    padding-top: 180px;
+  }
+  .viejooeste-service {
+    h2 {
+      font-size: 2em;
     }
-    .viejooeste-service {
-      h2 {
-        font-size: 2em;
-      }
-    }
+  }
   .viejooeste-cabin {
     padding-bottom: 180px;
     padding-top: 180px;
@@ -1689,7 +1760,7 @@ select {
   }
 
   /** Start Gallery Section  **/
-  .viejooeste-container-global{
+  .viejooeste-container-global {
     font-size: 2em;
     background-size: cover;
     height: 550px;
@@ -1798,338 +1869,338 @@ select {
 
 @media screen and (max-width: 480px) {
 
-    header {
-      .viejooeste-logo {
-        margin-left: 20px;
-        height: 80px;
-        width: 80px;
-      }
-      .viejooeste-menu {
-        right: 10px;
-        top: -10px;
-        height: 10px;
-        ul {
-          line-height: 95px;
-          width: 150px;
-          li {
-            &:first-child {
-              display: none;
-            }
+  header {
+    .viejooeste-logo {
+      margin-left: 20px;
+      height: 80px;
+      width: 80px;
+    }
+    .viejooeste-menu {
+      right: 10px;
+      top: -10px;
+      height: 10px;
+      ul {
+        line-height: 95px;
+        width: 150px;
+        li {
+          &:first-child {
+            display: none;
           }
-          li:nth-child(2){
-            a {
-              padding: 10px 40px;
-              border-radius: 5px;
-            }
+        }
+        li:nth-child(2) {
+          a {
+            padding: 10px 40px;
+            border-radius: 5px;
           }
         }
       }
-      .viejooeste-navigator {
-        display: none;
-        margin: 20px auto;
-        position: relative;
-        height: 150px;
-        width: 90%;
-        .viejooeste-menu-content {
-          border-right: dotted 1px $viejooeste-color02;
-          width: 48%;
-          float: left;
-          font: {
-            size: 18px;
-            family: "Proxima Nova", Helvetica Neue, Helvetica, Arial;
-          }
-          li {
-            display: block;
-            margin-right: 5px;
-            position: relative;
-            line-height: 40px;
-            a {
+    }
+    .viejooeste-navigator {
+      display: none;
+      margin: 20px auto;
+      position: relative;
+      height: 150px;
+      width: 90%;
+      .viejooeste-menu-content {
+        border-right: dotted 1px $viejooeste-color02;
+        width: 48%;
+        float: left;
+        font: {
+          size: 18px;
+          family: "Proxima Nova", Helvetica Neue, Helvetica, Arial;
+        }
+        li {
+          display: block;
+          margin-right: 5px;
+          position: relative;
+          line-height: 40px;
+          a {
+            text-align: left;
+            .img {
+              display: inline-block;
+              margin-bottom: 20px;
+              height: inherit;
+              div {
+                display: none;
+                vertical-align: middle;
+              }
+            }
+            span {
+              width: 100%;
               text-align: left;
-              .img {
-                display: inline-block;
-                margin-bottom: 20px;
-                height: inherit;
-                div {
-                  display: none;
-                  vertical-align: middle;
-                }
-              }
-              span {
-                width: 100%;
-                text-align: left;
-                position: absolute;
-              }
-            }
-          }
-        }
-        .viejooeste-menu-main {
-          margin-left: 15px;
-          width: 45%;
-        }
-      }
-    }
-    .viejooeste-container-slider {
-      background-attachment: inherit;
-      img#slider_desktop {
-        display: none;
-      }
-      img#slider_mobile {
-        display: block;
-      }
-      .viejooeste-baseline {
-        .container-baseline {
-          > .center {
-            > h2 {
-              font: {
-                size: 0.8em;
-              }
-              width: 100%;
-              margin: 80px auto 0px;
-            }
-            > p {
-              text-align: center;
-              width: 100%;
+              position: absolute;
             }
           }
         }
       }
+      .viejooeste-menu-main {
+        margin-left: 15px;
+        width: 45%;
+      }
     }
-    .viejooeste-mision {
-      padding-bottom: 100px;
-      padding-top: 100px;
-      h1 {
-        font: {
-          size: 2em;
+  }
+  .viejooeste-container-slider {
+    background-attachment: inherit;
+    img#slider_desktop {
+      display: none;
+    }
+    img#slider_mobile {
+      display: block;
+    }
+    .viejooeste-baseline {
+      .container-baseline {
+        > .center {
+          > h2 {
+            font: {
+              size: 0.8em;
+            }
+            width: 100%;
+            margin: 80px auto 0px;
+          }
+          > p {
+            text-align: center;
+            width: 100%;
+          }
         }
       }
-      h2 {
+    }
+  }
+  .viejooeste-mision {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    h1 {
+      font: {
+        size: 2em;
+      }
+    }
+    h2 {
+      font: {
+        size: 2em;
+      }
+    }
+    p {
+      font: {
+        size: 1.1em;
+      }
+      width: 90%;
+    }
+    ul {
+      display: block;
+      li {
         font: {
-          size: 2em;
+          size: 1.2em;
+        }
+        width: 80%;
+        margin: 0px auto;
+      }
+    }
+    article.entry {
+      > h2 {
+        margin-top: 30px;
+        color: $viejooeste-color01;
+        font: {
+          size: 1.6em;
         }
       }
-      p {
+      > p {
+        margin: 20px auto;
         font: {
           size: 1.1em;
         }
         width: 90%;
-      }
-      ul {
-        display: block;
-        li {
+        color: $viejooeste-color12;
+        &.date {
           font: {
-            size: 1.2em;
+            size: 0.9em;
+            weight: bold;
           }
-          width: 80%;
-          margin: 0px auto;
-        }
-      }
-      article.entry {
-        > h2 {
-          margin-top: 30px;
-          color: $viejooeste-color01;
-          font: {
-            size: 1.6em;
-          }
-        }
-        > p {
-          margin: 20px auto;
-          font: {
-            size: 1.1em;
-          }
-          width: 90%;
-          color: $viejooeste-color12;
-          &.date {
-            font: {
-              size: 0.9em;
-              weight: bold;
-            }
-            color: $viejooeste-color07;
-          }
+          color: $viejooeste-color07;
         }
       }
     }
-    .viejooeste-gallery {
-      padding-bottom: 100px;
-      padding-top: 100px;
-       h2 {
-         font: {
-           size: 2em;
-         }
-       }
-     }
-    .viejooeste-service {
-      h2 {
-        font: {
-          size: 2em;
-        }
+  }
+  .viejooeste-gallery {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    h2 {
+      font: {
+        size: 2em;
       }
     }
-    .viejooeste-cabin {
-      padding-bottom: 100px;
-      padding-top: 100px;
-      h2 {
-        font: {
-          size: 2em;
-        }
+  }
+  .viejooeste-service {
+    h2 {
+      font: {
+        size: 2em;
       }
     }
-    .viejooeste-spaces {
-      h2 {
-        font: {
-          size: 2em;
-        }
+  }
+  .viejooeste-cabin {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    h2 {
+      font: {
+        size: 2em;
       }
     }
-    footer {
-      .viejooeste-footer-container {
-        padding: 30px 30px;
+  }
+  .viejooeste-spaces {
+    h2 {
+      font: {
+        size: 2em;
+      }
+    }
+  }
+  footer {
+    .viejooeste-footer-container {
+      padding: 30px 30px;
+      width: 100%;
+      > h4 {
         width: 100%;
-        > h4 {
+        padding: 0px;
+        font: {
+          size: 1.6em;
+        }
+      }
+      .testimonies {
+        width: 100%;
+        .client {
           width: 100%;
           padding: 0px;
-          font: {
-            size: 1.6em;
+          .body {
+            > p {
+              font: {
+                size: 1.1em;
+              }
+            }
+            > h4 {
+              font: {
+                size: 1.0em;
+              }
+            }
           }
         }
-        .testimonies {
+      }
+      > nav {
+        > ul {
           width: 100%;
-          .client {
+          > li {
+            display: inline-flex;
             width: 100%;
-            padding: 0px;
-            .body {
-              > p {
-                font: {
-                  size: 1.1em;
-                }
-              }
-              > h4 {
-                font: {
-                  size: 1.0em;
-                }
-              }
-            }
-          }
-        }
-        > nav {
-          > ul {
-            width: 100%;
-            > li {
-              display: inline-flex;
-              width: 100%;
-              text-align: center;
-              border-bottom: dotted 1px $viejooeste-color01;
-              padding: 10px 0px;
-              &:nth-child(4) {
-                font-size: 12px;
-              }
+            text-align: center;
+            border-bottom: dotted 1px $viejooeste-color01;
+            padding: 10px 0px;
+            &:nth-child(4) {
+              font-size: 12px;
             }
           }
         }
       }
     }
-    .submenu {
-      width: 100%;
-      > li {
-        display: block;
-        margin: 10px 0px;
-        font: {
-          size: 1.1em;
-        }
-        a {
-          img {
-            width: 20%;
-            vertical-align: middle;
-          }
+  }
+  .submenu {
+    width: 100%;
+    > li {
+      display: block;
+      margin: 10px 0px;
+      font: {
+        size: 1.1em;
+      }
+      a {
+        img {
+          width: 20%;
+          vertical-align: middle;
         }
       }
     }
-    .viejooeste-down {
-      display: none;
-      span {
-        font-size: 8px;
-      }
+  }
+  .viejooeste-down {
+    display: none;
+    span {
+      font-size: 8px;
     }
+  }
   .viejooeste-icon-container {
     top: 60px;
   }
-    .viejooeste-icon-indicator {
-        height: 24px;
-        width: 24px;
-        line-height: 24px;
-        background-image: url('../img/viejooeste-icon-indicator-small.png');
+  .viejooeste-icon-indicator {
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    background-image: url('../img/viejooeste-icon-indicator-small.png');
+  }
+  /** Start Gallery Section  **/
+  .viejooeste-container-global {
+    font-size: 1.8em;
+    background-size: cover;
+    height: 550px;
+    h2 {
+      top: 120px;
+      width: 85%;
     }
-    /** Start Gallery Section  **/
-    .viejooeste-container-global{
-      font-size: 1.8em;
-      background-size: cover;
-      height: 550px;
-      h2 {
-        top: 120px;
-        width: 85%;
-      }
-      p {
-        top: 340px;
-        font: {
-          size: 20px;
-        }
-        width: 85%;
-      }
-    }
-    .viejooeste-container-bg {
-      .viejooeste-container-imagen {
-        left: 30%;
-        bottom: 120px;
-        width: 200px;
-      }
-    }
-    .viejooeste-container-content {
-      h2 {
-        text-align: center;
-      }
-    }
-    .viejooeste-container-options {
-      display: none;
-      width: 80%;
-      margin: 40px auto;
-      li {
-        width: 49%;
-      }
-    }
-    .viejooeste-form {
-      display: block;
-    }
-    /** End Gallery Section **/
-    .viejooeste-form-contact {
-      width: 100%;
-    }
-
-    .viejooeste-table-container {
-      width: 100%;
-      overflow-x: scroll;
-      position: relative;
-    }
-    .viejooeste-table-planes {
-      border-spacing: 0;
-      border-collapse: collapse;
-      width: 100%;
+    p {
+      top: 340px;
       font: {
-        size: 8px;
+        size: 20px;
       }
-      tbody {
-        tr {
-          td {
-            padding: 3px;
-          }
-        }
-      }
-      thead {
-        tr {
-          td {
-            padding: 3px;
-          }
+      width: 85%;
+    }
+  }
+  .viejooeste-container-bg {
+    .viejooeste-container-imagen {
+      left: 30%;
+      bottom: 120px;
+      width: 200px;
+    }
+  }
+  .viejooeste-container-content {
+    h2 {
+      text-align: center;
+    }
+  }
+  .viejooeste-container-options {
+    display: none;
+    width: 80%;
+    margin: 40px auto;
+    li {
+      width: 49%;
+    }
+  }
+  .viejooeste-form {
+    display: block;
+  }
+  /** End Gallery Section **/
+  .viejooeste-form-contact {
+    width: 100%;
+  }
+
+  .viejooeste-table-container {
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
+  }
+  .viejooeste-table-planes {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    font: {
+      size: 8px;
+    }
+    tbody {
+      tr {
+        td {
+          padding: 3px;
         }
       }
     }
+    thead {
+      tr {
+        td {
+          padding: 3px;
+        }
+      }
+    }
+  }
   .viejooeste-convenios {
     width: 90%;
   }
@@ -2160,33 +2231,33 @@ select {
 
 @media screen and (max-width: 360px) {
 
-    .viejooeste-container-slider {
-      background-attachment: inherit;
-      img#slider_desktop {
-        display: none;
-      }
-      img#slider_mobile {
-        display: block;
-      }
-      .viejooeste-baseline {
-        .container-baseline {
-          > .center {
-            > h2 {
-              font: {
-                size: 0.7em;
-              }
-              width: 100%;
-              margin: 70px auto 0px;
+  .viejooeste-container-slider {
+    background-attachment: inherit;
+    img#slider_desktop {
+      display: none;
+    }
+    img#slider_mobile {
+      display: block;
+    }
+    .viejooeste-baseline {
+      .container-baseline {
+        > .center {
+          > h2 {
+            font: {
+              size: 0.7em;
             }
-            > p {
-              text-align: center;
-              width: 100%;
-              margin: 20px auto;
-            }
+            width: 100%;
+            margin: 70px auto 0px;
+          }
+          > p {
+            text-align: center;
+            width: 100%;
+            margin: 20px auto;
           }
         }
       }
     }
+  }
 
   .localization-photos {
     ul {
@@ -2249,7 +2320,7 @@ select {
       > ul {
         line-height: 95px;
         width: 150px;
-        li:nth-child(2){
+        li:nth-child(2) {
           a {
             padding: 10px 40px;
             border-radius: 5px;
@@ -2381,9 +2452,9 @@ select {
         > ul {
           > li {
             border-bottom: dotted 1px $viejooeste-color01;
-             &:nth-child(4) {
+            &:nth-child(4) {
               font-size: 12px;
-               border-bottom: none;
+              border-bottom: none;
             }
           }
         }
@@ -2392,7 +2463,7 @@ select {
   }
 
   /** Start Gallery Section  **/
-  .viejooeste-container-global{
+  .viejooeste-container-global {
     font-size: 1.4em;
     background-size: cover;
     height: 550px;
@@ -2471,7 +2542,6 @@ select {
     width: 90%;
   }
 
-
   .localization-photos {
     ul {
       li {
@@ -2495,6 +2565,7 @@ select {
   }
 
 }
+
 /**
 #viejooeste_container_options_gallery {
   display: block;

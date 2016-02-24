@@ -58,7 +58,7 @@
                     <p>
                         Estamos ubicados a 500mt diagonal a la <a href="http://www.haciendanapoles.com/" style="color:#e69000;">Hacienda Nápoles</a>, 15 minutos
                         hacia Medellín de la Reserva Natural Río Claro, a 15 minutos hacia Bogotá del malecón de Puerto
-                        Trinfo y a escasos minutos de hermosos charcos naturales de la región como San Juan, Sonia y
+                        Triunfo y a escasos minutos de hermosos charcos naturales de la región como San Juan, Sonia y
                         Piedras Blancas.
                     </p>
                     <section class="localization-photos">
