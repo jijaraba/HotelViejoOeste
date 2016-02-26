@@ -512,9 +512,62 @@ input[type="radio"]:checked + label {
 .cabin-detail {
   position: relative;
   > .cabin-campaign {
+    width: 65%;
     margin: 0px auto;
-    width: 900px;
-    height: 600px;
+    > h2 {
+      font: {
+        size: 3em;
+        family: $viejooeste-font-family-09;
+      }
+      margin-bottom: 20px;
+      color: #4d3917;
+    }
+    > .promos {
+      > .promo {
+        > img {
+          max-width: 100%;
+        }
+      }
+    }
+    > p {
+      margin-top: 20px;
+      padding: 10px 0px;
+      font: {
+        size: 0.9em;
+      }
+    }
+    > div.button {
+      margin: 10px auto;
+      border-radius: 10px;
+      background: $viejooeste-color15;
+      padding: 10px 8px;
+      width: 250px;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      color: $viejooeste-color02;
+    }
+    > div.divider {
+      margin: 20px 0px 20px 0px;
+      border-bottom: 2px dotted #d4c8b2;
+    }
+  }
+  > .zona-humeda {
+    width: 90%;
+    margin: 0px auto;
+    > h2 {
+      font: {
+        size: 3em;
+        family: $viejooeste-font-family-09;
+      }
+      margin-bottom: 20px;
+      color: #4d3917;
+    }
+    > p {
+      margin-top: 10px;
+      padding: 10px 0px;
+      font: {
+        size: 0.9em;
+      }
+    }
   }
   > .title {
     margin: 15px auto;
@@ -619,14 +672,17 @@ input[type="radio"]:checked + label {
         &.ls {
           background: $viejooeste-color14;
           border-radius: 10px;
-          box-shadow: 1px 1px 3px rgba($viejooeste-color13,0.5);
+          box-shadow: 1px 1px 3px rgba($viejooeste-color13, 0.5);
           color: #ffffff;
         }
         &.hs {
           background: $viejooeste-color04;
           border-radius: 10px;
-          box-shadow: 1px 1px 3px rgba($viejooeste-color13,0.5);
+          box-shadow: 1px 1px 3px rgba($viejooeste-color13, 0.5);
           color: #ffffff;
+        }
+        &.campaign {
+          margin-top: 20px;
         }
       }
     }
@@ -721,10 +777,7 @@ input[type="radio"]:checked + label {
   }
 
   .cabin-detail {
-    > .cabin-campaign {
-      width: 700px;
-      height: 467px;
-    }
+
     > .title {
       width: 90%;
       font: {
@@ -945,10 +998,7 @@ input[type="radio"]:checked + label {
   }
 
   .cabin-detail {
-    > .cabin-campaign {
-      width: 360px;
-      height: 240px;
-    }
+
     > .title {
       width: 90%;
       font: {
@@ -1056,8 +1106,44 @@ input[type="radio"]:checked + label {
 
   .cabin-detail {
     > .cabin-campaign {
-      width: 360px;
-      height: 240px;
+      width: 70%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > .promos {
+        > .promo {
+          &:nth-child(1),&:nth-child(3),&:nth-child(5) {
+            width: 100%;
+          }
+          &:nth-child(2),&:nth-child(4){
+            display: none;
+          }
+          > img {
+            max-width: 70%;
+          }
+        }
+      }
+    }
+    > .zona-humeda {
+      width: 90%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > ul {
+        > li {
+          width: 100%;
+        }
+      }
     }
     > .title {
       width: 90%;
@@ -1123,8 +1209,44 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 430px) {
   .cabin-detail {
     > .cabin-campaign {
-      width: 380px;
-      height: 253px;
+      width: 70%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > .promos {
+        > .promo {
+          &:nth-child(1),&:nth-child(3),&:nth-child(5) {
+            width: 100%;
+          }
+          &:nth-child(2),&:nth-child(4){
+            display: none;
+          }
+          > img {
+            max-width: 70%;
+          }
+        }
+      }
+    }
+    > .zona-humeda {
+      width: 90%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > ul {
+        > li {
+          width: 100%;
+        }
+      }
     }
   }
 }
@@ -1132,8 +1254,44 @@ input[type="radio"]:checked + label {
 @media screen and (max-width: 390px) {
   .cabin-detail {
     > .cabin-campaign {
-      width: 360px;
-      height: 240px;
+      width: 70%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > .promos {
+        > .promo {
+          &:nth-child(1),&:nth-child(3),&:nth-child(5) {
+            width: 100%;
+          }
+          &:nth-child(2),&:nth-child(4){
+            display: none;
+          }
+          > img {
+            max-width: 70%;
+          }
+        }
+      }
+    }
+    > .zona-humeda {
+      width: 90%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > ul {
+        > li {
+          width: 100%;
+        }
+      }
     }
   }
 }
@@ -1190,9 +1348,45 @@ input[type="radio"]:checked + label {
   }
 
   .cabin-detail {
-    .cabin-campaign {
-      width: 340px;
-      height: 227px;
+    > .cabin-campaign {
+      width: 70%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > .promos {
+        > .promo {
+          &:nth-child(1),&:nth-child(3),&:nth-child(5) {
+            width: 100%;
+          }
+          &:nth-child(2),&:nth-child(4){
+            display: none;
+          }
+          > img {
+            max-width: 70%;
+          }
+        }
+      }
+    }
+    > .zona-humeda {
+      width: 90%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > ul {
+        > li {
+          width: 100%;
+        }
+      }
     }
     > .title {
       width: 90%;
@@ -1308,8 +1502,44 @@ input[type="radio"]:checked + label {
 
   .cabin-detail {
     > .cabin-campaign {
-      width: 300px;
-      height: 200px;
+      width: 70%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > .promos {
+        > .promo {
+          &:nth-child(1),&:nth-child(3),&:nth-child(5) {
+            width: 100%;
+          }
+          &:nth-child(2),&:nth-child(4){
+            display: none;
+          }
+          > img {
+            max-width: 70%;
+          }
+        }
+      }
+    }
+    > .zona-humeda {
+      width: 90%;
+      margin: 0px auto;
+      > h2 {
+        font: {
+          size: 2em;
+        }
+        margin-bottom: 20px;
+        color: #4d3917;
+      }
+      > ul {
+        > li {
+          width: 100%;
+        }
+      }
     }
     > .title {
       width: 90%;

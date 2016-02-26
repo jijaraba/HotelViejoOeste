@@ -53,6 +53,14 @@ ViejoOeste =
           enabled:true
         }
       )
+      ##Slider Pool
+      $('.new-pool').magnificPopup(
+        delegate: '> li > a',
+        type: 'image',
+        gallery: {
+          enabled:true
+        }
+      )
 
       ## Convenios Cotrafa
       $("#cotrafa").bind "click", ->
