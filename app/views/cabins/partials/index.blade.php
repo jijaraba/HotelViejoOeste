@@ -26,24 +26,24 @@
     <div class="zona-humeda">
         <h2>Zonas Húmedas</h2>
         <ul class="new-pool display-horizontal col-100">
-            <li src="/img/pool/pool01.jpg" class="col-25 gutter-5">
-                <a href="/img/pool/pool01.jpg">
-                    <img src="/img/pool/pool01.jpg" alt="Zona Húmeda - Hotel Viejo Oeste">
+            <li src="/img/pool/pool01.JPG" class="col-25 gutter-5">
+                <a href="/img/pool/pool01.JPG">
+                    <img src="/img/pool/pool01.JPG" alt="Zona Húmeda - Hotel Viejo Oeste">
                 </a>
             </li>
-            <li src="/img/pool/pool02.jpg" class="col-25 gutter-5">
-                <a href="/img/pool/pool02.jpg">
-                    <img src="/img/pool/pool02.jpg" alt="Zona Húmeda - Hotel Viejo Oeste">
+            <li src="/img/pool/pool02.JPG" class="col-25 gutter-5">
+                <a href="/img/pool/pool02.JPG">
+                    <img src="/img/pool/pool02.JPG" alt="Zona Húmeda - Hotel Viejo Oeste">
                 </a>
             </li>
-            <li src="/img/pool/pool03.jpg" class="col-25 gutter-5">
-                <a href="/img/pool/pool03.jpg">
-                    <img src="/img/pool/pool03.jpg" alt="Zona Húmeda - Hotel Viejo Oeste">
+            <li src="/img/pool/pool03.JPG" class="col-25 gutter-5">
+                <a href="/img/pool/pool03.JPG">
+                    <img src="/img/pool/pool03.JPG" alt="Zona Húmeda - Hotel Viejo Oeste">
                 </a>
             </li>
-            <li src="/img/pool/pool04.jpg" class="col-25 gutter-5">
-                <a href="/img/pool/pool04.jpg">
-                    <img src="/img/pool/pool04.jpg" alt="Zona Húmeda - Hotel Viejo Oeste">
+            <li src="/img/pool/pool04.JPG" class="col-25 gutter-5">
+                <a href="/img/pool/pool04.JPG">
+                    <img src="/img/pool/pool04.JPG" alt="Zona Húmeda - Hotel Viejo Oeste">
                 </a>
             </li>
         </ul>
