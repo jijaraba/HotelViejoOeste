@@ -597,12 +597,11 @@ input[type="radio"]:checked + label {
     }
     text-align: center;
     padding: 10px;
-    border-radius: 3px;
     ul {
       margin: 10px auto;
       li {
         text-align: center;
-        padding: 8px;
+        padding: 4px 8px;
         span {
           font: {
             weight: bold;
@@ -619,12 +618,14 @@ input[type="radio"]:checked + label {
         }
         &.ls {
           background: $viejooeste-color14;
-          border-radius: 3px;
+          border-radius: 25px;
+          box-shadow: 1px 1px 3px rgba($viejooeste-color13,0.5);
           color: #ffffff;
         }
         &.hs {
           background: $viejooeste-color04;
-          border-radius: 3px;
+          border-radius: 25px;
+          box-shadow: 1px 1px 3px rgba($viejooeste-color13,0.5);
           color: #ffffff;
         }
       }

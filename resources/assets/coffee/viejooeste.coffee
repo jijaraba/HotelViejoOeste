@@ -47,7 +47,7 @@ ViejoOeste =
 
       ##Slider Cabin
       $('.slider-cabin-container').magnificPopup(
-        delegate: 'img',
+        delegate: '> li > a',
         type: 'image',
         gallery: {
           enabled:true

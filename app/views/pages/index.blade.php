@@ -26,7 +26,9 @@
     <div class="viejooeste-modal">
         <div class="close"></div>
         <div>
-            <img src="/img/campaign/campaign.png" alt="Semana Santa">
+            <a href="{{URL::route('cabins.index')}}">
+                <img src="/img/campaign/campaign.png" alt="Semana Santa">
+            </a>
         </div>
     </div>
     <div class="viejooeste-mask"></div>
