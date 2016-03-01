@@ -682,6 +682,7 @@ input[type="radio"]:checked + label {
           color: #ffffff;
           position: relative;
           &::before {
+            opacity: 1;
             content: "";
             height: 115px;
             width: 94px;
