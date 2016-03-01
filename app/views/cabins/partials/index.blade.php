@@ -48,11 +48,11 @@
             </li>
         </ul>
         <p>* Nuestras tres zonas húmedas <strong>Sin restricción de horario</strong> </p>
-        <ul class="col-100">
-            <li class="col-100"><strong>Estampida:</strong> El Jacuzzi más grande de la región</li>
-            <li class="col-100"><strong>Potrillos:</strong> La piscina infantil</li>
-            <li class="col-100"><strong>Manadas:</strong> Piscina con caída de agua</li>
-            <li class="col-100"><strong>Potrancas:</strong> Zona de Bronceo</li>
+        <ul class="pools col-100">
+            <li class="col-100"><strong>Estampida:</strong><br> El Jacuzzi más grande de la región</li>
+            <li class="col-100"><strong>Potrillos:</strong><br> La piscina infantil</li>
+            <li class="col-100"><strong>Manadas:</strong><br> Piscina con caída de agua</li>
+            <li class="col-100"><strong>Potrancas:</strong><br> Zona de Bronceo</li>
         </ul>
     </div>
 </article>

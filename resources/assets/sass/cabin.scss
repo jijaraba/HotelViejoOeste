@@ -568,6 +568,15 @@ input[type="radio"]:checked + label {
         size: 0.9em;
       }
     }
+    > ul.pools {
+      list-style: none;
+      li {
+        list-style: none;
+        strong {
+          color: $viejooeste-color01;
+        }
+      }
+    }
   }
   > .title {
     margin: 15px auto;
