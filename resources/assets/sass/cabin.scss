@@ -665,21 +665,36 @@ input[type="radio"]:checked + label {
         }
         &:last-child {
           padding-top: 10px;
-          margin-top: 10px;
+          margin-top: 80px;
           border-top: 1px dotted #D4C8B2;
           border-right: none;
         }
         &.ls {
           background: $viejooeste-color14;
-          border-radius: 10px;
+          border-radius: 3px;
           box-shadow: 1px 1px 3px rgba($viejooeste-color13, 0.5);
           color: #ffffff;
         }
         &.hs {
           background: $viejooeste-color04;
-          border-radius: 10px;
+          border-radius: 3px;
           box-shadow: 1px 1px 3px rgba($viejooeste-color13, 0.5);
           color: #ffffff;
+          position: relative;
+          &::before {
+            content: "";
+            height: 115px;
+            width: 94px;
+            position: absolute;
+            top:47px;
+            margin: 0px auto;
+            z-index: -1;
+            background: url('../img/campaign/offer.png') no-repeat;
+            transition: all .2s ease-in-out;
+            &:hover {
+              transform: scale(1.3);
+            }
+          }
         }
         &.campaign {
           margin-top: 20px;
@@ -689,7 +704,8 @@ input[type="radio"]:checked + label {
   }
   > .form {
     > a {
-      background-color: $viejooeste-color15;
+      background: linear-gradient(45deg, rgba(207,56,71,1) 0%, rgba(218,68,83,1) 53%, rgba(204,47,63,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf3847', endColorstr='#cc2f3f', GradientType=1 );
       padding: 15px 50px;
       border-radius: 10px;
       transition: background 250ms;
@@ -1124,7 +1140,7 @@ input[type="radio"]:checked + label {
             display: none;
           }
           > img {
-            max-width: 70%;
+            max-width: 60%;
           }
         }
       }
@@ -1227,7 +1243,7 @@ input[type="radio"]:checked + label {
             display: none;
           }
           > img {
-            max-width: 70%;
+            max-width: 60%;
           }
         }
       }
@@ -1272,7 +1288,7 @@ input[type="radio"]:checked + label {
             display: none;
           }
           > img {
-            max-width: 70%;
+            max-width: 65%;
           }
         }
       }

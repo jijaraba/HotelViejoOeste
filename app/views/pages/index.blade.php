@@ -27,7 +27,7 @@
         <div class="close"></div>
         <div>
             <a href="{{URL::route('cabins.index')}}">
-                <img src="/img/campaign/campaign.png" alt="Semana Santa">
+                <img src="/img/campaign/campaign_web.png" alt="Semana Santa">
             </a>
         </div>
     </div>
