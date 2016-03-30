@@ -52,7 +52,7 @@
         <ul class="display-horizontal col-100">
             <li class="col-45 gutter-5 ls"><span>Temporada baja</span><br>${{ $cabin->rate_ls }}</li>
             <li class="col-10 gutter-5"></li>
-            <li class="col-45 gutter-5 hs"><span>Temporada alta</span><br>${{ $cabin->rate_hs }}</li>
+            <li id="show_campaign" class="col-45 gutter-5 hs"><span>Temporada alta</span><br>${{ $cabin->rate_hs }}</li>
             <li class="col-100 gutter-5 campaign"></li>
             <li class="col-100">
                 <p>Incluye desayuno al estilo <strong>Viejo Oeste</strong></p>

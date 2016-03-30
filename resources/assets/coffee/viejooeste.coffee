@@ -53,6 +53,7 @@ ViejoOeste =
           enabled:true
         }
       )
+
       ##Slider Pool
       $('.new-pool').magnificPopup(
         delegate: '> li > a',
@@ -61,6 +62,16 @@ ViejoOeste =
           enabled:true
         }
       )
+
+      #Campaign
+      $("#show_campaign").bind "click", (e)->
+        console.log "Hello"
+        e.preventDefault()
+        $(".cabin-detail > .rate > ul > li.hs:before").animate({'top': "47px"}, 1000, ()->
+          console.log "Ready"
+          false
+        );
+        false
 
       ## Convenios Cotrafa
       $("#cotrafa").bind "click", ->

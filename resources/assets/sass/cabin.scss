@@ -690,21 +690,7 @@ input[type="radio"]:checked + label {
           box-shadow: 1px 1px 3px rgba($viejooeste-color13, 0.5);
           color: #ffffff;
           position: relative;
-          &::before {
-            opacity: 1;
-            content: "";
-            height: 115px;
-            width: 94px;
-            position: absolute;
-            top:47px;
-            margin: 0px auto;
-            z-index: -1;
-            background: url('../img/campaign/offer.png') no-repeat;
-            transition: all .2s ease-in-out;
-            &:hover {
-              transform: scale(1.3);
-            }
-          }
+          cursor: pointer;
         }
         &.campaign {
           margin-top: 20px;
