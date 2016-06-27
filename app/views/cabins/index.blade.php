@@ -22,10 +22,10 @@
 @section("content")
     <section class="viejooeste-landing-cabin col-100" id="landing_cabin">
         <ul class="display-horizontal col-100" style="height: 100%">
-            <li class="col-75">
+            <li class="col-70">
                 @include('cabins.partials.index', array('cabins'=>$cabins))
             </li>
-            <li class="col-25 slider-cabin">
+            <li class="col-30 slider-cabin">
                 @include('cabins.partials.nav', array('cabins'=>$cabins))
             </li>
         </ul>

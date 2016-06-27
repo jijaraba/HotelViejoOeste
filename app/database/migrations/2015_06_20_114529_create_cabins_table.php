@@ -17,13 +17,13 @@ class CreateCabinsTable extends Migration {
             $table->engine = 'InnoDB';
             $table->increments('idcabin');
 			$table->string('name');
-			$table->text('description');
+			$table->text('description')->nullable();
 			$table->integer('capacity');
             $table->integer('rate_ls');
             $table->integer('rate_hs');
             $table->string('slug');
             $table->integer('order');
-            $table->text('seo_description');
+            $table->text('seo_description')->nullable();
             $table->integer('seo_keywords');
 			$table->timestamps();
 		});
