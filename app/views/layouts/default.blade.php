@@ -7,7 +7,7 @@
     <meta name="author" content="BigMountain" />
     <meta name="description" content="@yield('description')" />
     <meta name="keywords" content="@yield('keywords')" />
-    <link rel="stylesheet" href="/css/slick.css?v={{ Hash::make(time()) }}"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <link rel="stylesheet" href="/css/app.css?v={{ Hash::make(time()) }}"/>
     @yield("rotator_css")
     @yield("modal_css")
@@ -252,7 +252,7 @@
             </audio>
         </div>
      </footer>
-    <script src="/js/vendor/slick.js/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script src="/js/vendor/magnific-popup/jquery.magnific-popup.js"></script>
     <script src="/js/viejooeste.js"></script>
     @yield("rotator_js")

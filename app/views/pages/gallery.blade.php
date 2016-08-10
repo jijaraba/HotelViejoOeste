@@ -134,6 +134,11 @@
                         <img src="img/gallery/global/large/global22.jpg" alt="Hotel Viejo Oeste - Galería de Fotos"/>
                         </a>
                     </li>
+                    <li class="item global gallery">
+                         <a href="#">
+                        <img src="img/gallery/global/large/global43.jpg" alt="Hotel Viejo Oeste - Galería de Fotos"/>
+                        </a>
+                    </li>
                      <li class="item global gallery">
                          <a href="#">
                         <img src="img/gallery/global/large/global08.jpg" alt="Hotel Viejo Oeste - Galería de Fotos"/>
@@ -182,6 +187,11 @@
                      </li>
                      <li class="item global resturante">
                           <a href="#">
+                         <img src="img/gallery/global/large/global44.jpg" alt="Hotel Viejo Oeste - Galería de Fotos"/>
+                         </a>
+                     </li>
+                     <li class="item global global">
+                          <a href="#">
                          <img src="img/gallery/global/large/global35.jpg" alt="Hotel Viejo Oeste - Galería de Fotos"/>
                          </a>
                      </li>
@@ -218,6 +228,11 @@
                     <li class="item global gallery">
                          <a href="#">
                         <img src="img/gallery/global/large/global36.jpg" alt="Hotel Viejo Oeste - Galería de Fotos"/>
+                        </a>
+                    </li>
+                    <li class="item global gallery">
+                         <a href="#">
+                        <img src="img/gallery/global/large/global45.jpg" alt="Hotel Viejo Oeste - Galería de Fotos"/>
                         </a>
                     </li>
                     <li class="item global gallery">
