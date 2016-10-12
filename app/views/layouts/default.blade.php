@@ -50,6 +50,7 @@
     @yield('maps')
 </head>
 <body>
+    @yield('modal_show')
     <header>
         <div class="viejooeste-logo">
             <a href="/"><img src="img/logo_desktop.png" alt="Hotel Viejo Oeste - Doradal Antioquia"/></a>
