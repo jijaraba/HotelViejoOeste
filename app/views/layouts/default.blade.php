@@ -239,7 +239,7 @@
                             <li><strong>Hotel Viejo Oeste - Doradal (Antioquia)</strong></li>
                             <li><span class="fa fa-at fa-lg"></span><span style="margin-left: 5px">Correo:</span> info@hotelviejooeste.com</li>
                             <li><span class="fa fa-cloud fa-lg"></span><span style="margin-left: 5px">Reservas</span></li>
-                            <li>3207488352</li>
+                            <li>3227677105 - 3207488352</li>
                         </ul>
                     </li>
                 </ul>
