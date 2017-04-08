@@ -1,6 +1,6 @@
 @extends("layouts.default")
 @section("title", "Hotel Viejo Oeste - Doradal Antioquia")
-@section("description", "Estamos ubicados en Doradal Antioquia, nuestra propuesta se basa en caracterizar cada cabaña al mejor estilo del viejo oeste")
+@section("description", "Estamos ubicados en Doradal Antioquia, hospedate con nosotros y obtén hasta un 15% de descuento en Rafting, espeleología y Tours en lanchas.")
 @section("keywords", "hoteles en doradal, cabañas temáticas, sitios turíticos en doradal, hospedaje en doradal")
 @section("facebook_visitantes")
     <!-- Facebook Conversion Code for Visitantes -->
@@ -42,9 +42,9 @@
 
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
-        <img id="slider_desktop" src="img/slider/desktop/slider08.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"
+        <img id="slider_desktop" src="img/slider/desktop/slider10.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"
              onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>
-        <img id="slider_mobile" src="img/slider/mobile/slider08.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"/>
+        <img id="slider_mobile" src="img/slider/mobile/slider10.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"/>
 
         <div class="viejooeste-baseline">
             <div class="container-baseline">
