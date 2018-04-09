@@ -42,9 +42,9 @@
 
 @section("content")
     <section class="viejooeste-container-slider" id="viejooeste_container_slider">
-        <img id="slider_desktop" src="img/slider/desktop/slider10.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"
+        <img id="slider_desktop" src="img/slider/desktop/slider11.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"
              onload="ViejoOesteUtils.Global.setHeightSlider('#viejooeste_container_slider')"/>
-        <img id="slider_mobile" src="img/slider/mobile/slider10.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"/>
+        <img id="slider_mobile" src="img/slider/mobile/slider11.jpg" alt="Hotel Viejo Oeste - Doradal Antioquia"/>
 
         <div class="viejooeste-baseline">
             <div class="container-baseline">
